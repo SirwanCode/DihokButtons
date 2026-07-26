@@ -39,9 +39,12 @@ Or download the ZIP file and include the CSS DihokButtons.css in your project.
 
 ## :book: Usage
 
- html
+ 
  🔹sample usage(for button-003)
-     <button class="dButton-003 dButton-003-red">Button</button>
+ ```html
+ <button class="dButton-003 dButton-003-red">Button</button>
+```
+    
 
 🔴to change color, just replace class "dButton-003-blue" with one of &#128311;"dButton-003-green" , &#128311;"dButton-003-red", &#128311;"dButton-003-violet",&#128311;"dButton-003-orange"
 
