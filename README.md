@@ -16,7 +16,7 @@ DihokButtons is a lightweight CSS button library that provides beautiful, respon
 
 ## 📸 Preview
 💠First Part of Buttons
-![Alt text](https://github.com/SirwanCode/DihokButtons/preview/dihokButtons-001.png?raw=true)
+https://github.com/SirwanCode/DihokButtons/preview/dihokButtons-001.png
 
 
 assets/
