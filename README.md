@@ -84,8 +84,25 @@ You can easily customize:
 - Shadows
 - Hover effects
 - Animations
-- Transition speed  
-  ⭕just open DihokButtons.css and find the button and change properties  
+- Transition speed    
+ 🔶 just open DihokButtons.css and find the button and change properties
+ 💢 to add new Color set:
+      ◼ Open DihokButtons.css
+      ◼ in :root, add new color with differrent brightness
+   ```css
+    /* green in HSL */
+    --btn-green:#099268;
+   --hue-green:165;
+   --sat-green:80%;
+   --btn-green-900: hsl(var(--hue-green), var(--sat-green), var(--light-900));
+   --btn-green-700: hsl(var(--hue-green), var(--sat-green), var(--light-700));
+   --btn-green-600: hsl(var(--hue-green), var(--sat-green), var(--light-600));
+   --btn-green-500: hsl(var(--hue-green), var(--sat-green), var(--light-500));
+   --btn-green-450: hsl(var(--hue-green), var(--sat-green), var(--light-450));
+   --btn-green-300: hsl(var(--hue-green), var(--sat-green), var(--light-300));
+   --btn-green-100: hsl(var(--hue-green), var(--sat-green), var(--light-100));
+   --btn-green-093: hsl(var(--hue-green),  var(--sat-light), var(--light-093));
+   ```  
 ## :file_folder: Project Structure
 
 
