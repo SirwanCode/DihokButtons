@@ -29,11 +29,11 @@ DihokButtons is a lightweight CSS button library that provides beautiful, respon
 
 Clone the repository:
 
-bash
-git clone https://github.com/SiranCode/dihokbuttons.git
+bash  
+git clone https://github.com/SirwanCode/dihokbuttons.git
 
 
-Or download the ZIP file and include the CSS DihokButtons.css in your project.
+Or download the ZIP file, and then  include the CSS DihokButtons.css in your project.
 
  ```html
  <link rel="stylesheet" href="css/DihokButtons.css">
@@ -84,11 +84,12 @@ You can easily customize:
 - Shadows
 - Hover effects
 - Animations
-- Transition speed    
- 🔶 just open DihokButtons.css and find the button and change properties
- 💢 to add new Color set:
-      ◼ Open DihokButtons.css
-      ◼ in :root, add new color with differrent brightness
+- Transition speed
+    
+ 🔶 just open DihokButtons.css and find the button and change properties    
+ 💢 to add new Color set:  
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◼ Open DihokButtons.css  
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◼ in :root, add new color with differrent brightness  
    ```css
     /* green in HSL */
     --btn-green:#099268;
@@ -109,7 +110,11 @@ You can easily customize:
 ```
 DihokButtons/
 ├── css/
-│    └── DihokButtons.css
+│   │   └── DihokButtons.css
+├── preview/
+│   │   └── dihokButtons-001.png
+│   │   └── dihokButtons-002.png
+│   │   └── dihokButtons-003.png
 ├── index.html
 ├── README.md
  
