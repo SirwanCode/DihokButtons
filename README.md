@@ -30,20 +30,20 @@ DihokButtons is a lightweight CSS button library that provides beautiful, respon
 Clone the repository:
 
 bash
-git clone https://github.com/YOUR_USERNAME/dihokbuttons.git
+git clone https://github.com/SiranCode/dihokbuttons.git
 
 
 
-Or download the ZIP file and include the CSS in your project.
+Or download the ZIP file and include the CSS DihokButtons.css in your project.
+<link rel="stylesheet" href="css/DihokButtons.css">
 
 ## :book: Usage
 
-Include the CSS file:
+ html
+ 🔹sample usage(for button-003)
+     <button class="dButton-003 dButton-003-red">Button</button>
 
-html
-<link rel="stylesheet" href="css/style.css">
-
-
+🔴to change color, just replace class "dButton-003-blue" with one of &#128311;"dButton-003-green" , &#128311;"dButton-003-red", &#128311;"dButton-003-violet",&#128311;"dButton-003-orange"
 
 Then use any button class:
 
