@@ -17,13 +17,13 @@ DihokButtons is a lightweight CSS button library that provides beautiful, respon
 ## 📸 Preview
 💠First Part of Buttons
 ![Alt text](preview/dihokButtons-001.png)
-https://github.com/SirwanCode/DihokButtons/preview/dihokButtons-001.png
 
+ 💠Second Part of Buttons
+![Alt text](preview/dihokButtons-002.png)
 
-assets/
-└── preview.gif
-
-
+💠Third Part of Buttons
+![Alt text](preview/dihokButtons-003.png)
+ 
 
 ## :package: Installation
 
