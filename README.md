@@ -52,23 +52,25 @@ Or download the ZIP file and include the CSS DihokButtons.css in your project.
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-green   
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-red   
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-violet  
-&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-orange    
-✳ sample usage(for button-045)
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-orange  
+
+
+✳ sample usage(for button-044)
  ```html
-  <button class="dButton-045 dButton-045-blue">
-     <span class="icon">&#128386;</span>
-     <span class="text">  Button </span>
+ <button class="dButton-044 dButton-044-blue">
+      <span class="icon">&#128386;</span>
+      <span class="text">  Button </span>
  </button>
 ```
-    
+ 
 
-➰to change color, just replace class "dButton-045-blue" with one the following  
-&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-045-green   
-&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-045-red   
-&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-045-violet  
-&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-045-orange    
-
-📌📌📌<h3> Open index.html and we have listed all buttons and how to add each one</h3>📌📌📌
+➰to change color, just replace class "dButton-044-blue" with one the following  
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-044-green   
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-044-red   
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-044-violet  
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-044-orange      
+➰to change direction of button, replace  "dButton-044" with "dButton-044-rtl"  
+  📌📌📌<h3> Open index.html and we have listed all buttons and how to add each one</h3>📌📌📌
 
 ## :art: Customization
 
