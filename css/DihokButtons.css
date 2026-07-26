@@ -1,0 +1,2833 @@
+:root{
+   --btn-blue:#228be6;
+   --btn-green:#099268;
+   --btn-red:#ff004c;
+   --btn-yellow:#FFC107;
+   --btn-violet:#862e9c;
+   --btn-orange:#FE840E;
+   
+   /* blue in HSL */
+   --hue-blue: 200;
+   --sat-blue: 80%;
+   --sat-light:100%;
+ 
+   --light-900: 15%;  /* Dark */
+   --light-700: 35%;
+   --light-600: 50%;
+   --light-500: 55%;  /* Base */
+   --light-450: 60%;
+   --light-300: 75%;
+   --light-100: 90%;  /* Light */    
+   --light-093: 93%;
+
+   --btn-blue-900: hsl(var(--hue-blue), var(--sat-blue), var(--light-900));
+   --btn-blue-700: hsl(var(--hue-blue), var(--sat-blue), var(--light-700));
+   --btn-blue-600: hsl(var(--hue-blue), var(--sat-blue), var(--light-600));
+   --btn-blue-500: hsl(var(--hue-blue), var(--sat-blue), var(--light-500));
+   --btn-blue-450: hsl(var(--hue-blue), var(--sat-blue), var(--light-450));
+   --btn-blue-300: hsl(var(--hue-blue), var(--sat-blue), var(--light-300));
+   --btn-blue-100: hsl(var(--hue-blue), var(--sat-blue), var(--light-100));
+   --btn-blue-093: hsl(var(--hue-blue),  var(--sat-light), var(--light-093));
+
+ 
+   /* green in HSL */
+   --hue-green:165;
+   --sat-green:80%;
+   --btn-green-900: hsl(var(--hue-green), var(--sat-green), var(--light-900));
+   --btn-green-700: hsl(var(--hue-green), var(--sat-green), var(--light-700));
+   --btn-green-600: hsl(var(--hue-green), var(--sat-green), var(--light-600));
+   --btn-green-500: hsl(var(--hue-green), var(--sat-green), var(--light-500));
+   --btn-green-450: hsl(var(--hue-green), var(--sat-green), var(--light-450));
+   --btn-green-300: hsl(var(--hue-green), var(--sat-green), var(--light-300));
+   --btn-green-100: hsl(var(--hue-green), var(--sat-green), var(--light-100));
+   --btn-green-093: hsl(var(--hue-green),  var(--sat-light), var(--light-093));
+
+   /* red in HSL */
+   --hue-red:343;
+   --sat-red:80%;
+   --btn-red-900: hsl(var(--hue-red), var(--sat-red), var(--light-900));
+   --btn-red-700: hsl(var(--hue-red), var(--sat-red), var(--light-700));
+   --btn-red-600: hsl(var(--hue-red), var(--sat-red), var(--light-600));
+   --btn-red-500: hsl(var(--hue-red), var(--sat-red), var(--light-500));
+   --btn-red-450: hsl(var(--hue-red), var(--sat-red), var(--light-450));
+   --btn-red-300: hsl(var(--hue-red), var(--sat-red), var(--light-300));
+   --btn-red-100: hsl(var(--hue-red), var(--sat-red), var(--light-100));
+   --btn-red-093: hsl(var(--hue-red),  var(--sat-light), var(--light-093));
+
+   /* yellow in HSL */
+   --hue-yellow:45;
+   --sat-yellow:80%;
+   --btn-yellow-900: hsl(var(--hue-yellow), var(--sat-yellow), var(--light-900));
+   --btn-yellow-700: hsl(var(--hue-yellow), var(--sat-yellow), var(--light-700));
+   --btn-yellow-600: hsl(var(--hue-yellow), var(--sat-yellow), var(--light-600));
+   --btn-yellow-500: hsl(var(--hue-yellow), var(--sat-yellow), var(--light-500));
+   --btn-yellow-450: hsl(var(--hue-yellow), var(--sat-yellow), var(--light-450));
+   --btn-yellow-300: hsl(var(--hue-yellow), var(--sat-yellow), var(--light-300));
+   --btn-yellow-100: hsl(var(--hue-yellow), var(--sat-yellow), var(--light-100));
+   --btn-yellow-093: hsl(var(--hue-yellow),  var(--sat-light), var(--light-093));
+
+    /* violet in HSL */
+    --hue-violet:288;
+    --sat-violet:80%;
+    --btn-violet-900: hsl(var(--hue-violet), var(--sat-violet), var(--light-900));
+    --btn-violet-700: hsl(var(--hue-violet), var(--sat-violet), var(--light-700));
+    --btn-violet-600: hsl(var(--hue-violet), var(--sat-violet), var(--light-600));
+    --btn-violet-500: hsl(var(--hue-violet), var(--sat-violet), var(--light-500));
+    --btn-violet-450: hsl(var(--hue-violet), var(--sat-violet), var(--light-450));
+    --btn-violet-300: hsl(var(--hue-violet), var(--sat-violet), var(--light-300));
+    --btn-violet-100: hsl(var(--hue-violet), var(--sat-violet), var(--light-100));
+    --btn-violet-093: hsl(var(--hue-violet),  var(--sat-light), var(--light-093));
+
+     /* orange in HSL */
+   --hue-orange:29;
+   --sat-orange:80%;
+   --btn-orange-900: hsl(var(--hue-orange), var(--sat-orange), var(--light-900));
+   --btn-orange-700: hsl(var(--hue-orange), var(--sat-orange), var(--light-700));
+   --btn-orange-600: hsl(var(--hue-orange), var(--sat-orange), var(--light-600));
+   --btn-orange-500: hsl(var(--hue-orange), var(--sat-orange), var(--light-500));
+   --btn-orange-450: hsl(var(--hue-orange), var(--sat-orange), var(--light-450));
+   --btn-orange-300: hsl(var(--hue-orange), var(--sat-orange), var(--light-300));
+   --btn-orange-100: hsl(var(--hue-orange), var(--sat-orange), var(--light-100));
+   --btn-orange-093: hsl(var(--hue-orange),  var(--sat-light), var(--light-093));
+
+}
+.dButtonset{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin:10px auto;
+}
+
+.dButton-001{
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin:5px 4px;
+ }
+ 
+ .dButton-001 .icon {
+    font-size: 50px !important;
+    display: block;
+    margin: 10px auto;
+
+ }
+ .dButton-001 .text{
+    font-size: 15px;;
+    display: block;
+ }
+ .dButton-001-green{
+    color: green;
+    border: 1px solid green;
+ }
+ .dButton-001-green:hover{
+    color:white;
+    background-color:green;
+ }
+ .dButton-001-blue{
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+ }
+ .dButton-001-blue:hover{
+    color:white;
+    background-color:#0d6efd;
+ }
+ .dButton-001-mediumpurple{
+    color: #9370d8;
+    border: 1px solid #9370d8;
+ }
+ .dButton-001-mediumpurple:hover{
+    color:white;
+    background-color:#9370d8;
+ }
+ .dButton-001-darkgoldenrod{
+    color: #b8860b;
+    border: 1px solid #b8860b;
+ }
+ .dButton-001-darkgoldenrod:hover{
+    color:white;
+    background-color:#b8860b;
+ }
+ .dButton-001-brown{
+    color: brown;
+    border: 1px solid brown;
+ }
+ .dButton-001-brown:hover{
+    color:white;
+    background-color:brown;
+ } 
+ .dButton-001-olivedrab{
+    color: olivedrab;
+    border: 1px solid olivedrab;
+ }
+ .dButton-001-olivedrab:hover{
+    color:white;
+    background-color:olivedrab;
+ } 
+ .dButton-001-darkslategray{
+    color: darkslategray;
+    border: 1px solid darkslategray;
+ }
+ .dButton-001-darkslategray:hover{
+    color:white;
+    background-color:darkslategray;
+ }
+ 
+ .dButton-001-darkblue{
+    color: darkblue;
+    border: 1px solid darkblue;
+ }
+ .dButton-001-darkblue:hover{
+    color:white;
+    background-color:darkblue;
+ }
+ 
+ .dButton-001-red{
+    color: #DC3545;
+    border: 1px solid #DC3545;
+ }
+ .dButton-001-red:hover{
+    color:white;
+    background-color:#DC3545;
+ }
+ .dButton-001-yellow{
+    color: #FFC107;
+    border: 1px solid #FFC107;
+ }
+ .dButton-001-yellow:hover{
+    color:white;
+    background-color:#FFC107;
+ }
+
+ /* ----------dButton-002----------- */
+ .dButton-002{
+   width: 150px;
+   height: 50px;
+   color: white;
+   font-weight: bold;
+   border-radius:5px 20px;
+   transition: all .2s ease-in-out;
+   border:0;
+   margin:5px 4px;
+ }
+
+ .dButton-002:hover{
+   cursor:pointer;
+   border-radius:20px 5px;
+  
+ }
+ .dButton-002-blue{
+   background-color: var(--btn-blue-700);
+ }
+ .dButton-002-blue:hover{
+   background-color: var(--btn-blue-500);
+ }
+ .dButton-002-green{
+   background-color: var(--btn-green-700);
+ }
+ .dButton-002-green:hover{
+   background-color: var(--btn-green-500);
+ }
+ .dButton-002-red{
+   background-color: var(--btn-red-700);
+ }
+ .dButton-002-red:hover{
+   background-color: var(--btn-red-500);
+ }
+ .dButton-002-violet{
+   background-color: var(--btn-violet-700);
+ }
+ .dButton-002-violet:hover{
+   background-color: var(--btn-violet-500);
+ }
+ .dButton-002-orange{
+   background-color: var(--btn-orange-700);
+ }
+ .dButton-002-orange:hover{
+   background-color: var(--btn-orange-500);
+ }
+
+ /* ----------dButton-003----------- */
+ .dButton-003{
+   width: 100px;
+   height: 100px;
+   color: white;
+   font-weight: bold;
+   border-radius:10px;
+   transition: all .5s ease-in-out;
+   border:0;
+   margin:5px 4px;
+ }
+
+ .dButton-003:hover{
+   cursor:pointer;
+   border-radius:10px ;
+   color: white;
+ 
+ }
+ .dButton-003-blue{
+   background-color: var(--btn-blue-700);
+ }
+ .dButton-003-blue:hover{
+   background-color: var(--btn-blue-600);
+ }
+ .dButton-003-green{
+   background-color: var(--btn-green-700);
+ }
+ .dButton-003-green:hover{
+   background-color: var(--btn-green-600);
+ }
+ .dButton-003-red{
+   background-color: var(--btn-red-700);
+ }
+ .dButton-003-red:hover{
+   background-color: var(--btn-red-600);
+ }
+ .dButton-003-violet{
+   background-color: var(--btn-violet-700);
+ }
+ .dButton-003-violet:hover{
+   background-color: var(--btn-violet-600);
+ }
+ .dButton-003-orange{
+   background-color: var(--btn-orange-700);
+ }
+ .dButton-003-orange:hover{
+   background-color: var(--btn-orange-600);
+ }
+
+ /* ----------dButton-004----------- */
+
+ .dButton-004{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin:10px 5px;
+    color: white;
+    transition: all .3s ease-in-out;
+ }
+ .dButton-004:hover{
+    cursor: pointer;
+ }
+ .dButton-004-blue{
+    background-color: var(--btn-blue);
+    border: 1px solid var(--btn-blue-700);
+ }
+.dButton-004-blue:hover{
+   box-shadow: 5px 5px 0px 0px var(--btn-blue-450);
+}
+.dButton-004-green{
+   background-color: var(--btn-green);
+   border: 1px solid var(--btn-green-700);
+}
+.dButton-004-green:hover{
+   box-shadow: 5px 5px 0px 0px var(--btn-green-450);
+}
+.dButton-004-red{
+  background-color: var(--btn-red);
+  border: 1px solid var(--btn-red-700);
+}
+.dButton-004-red:hover{
+  box-shadow: 5px 5px 0px 0px var(--btn-red-450);
+}
+.dButton-004-violet{
+  background-color: var(--btn-violet);
+  border: 1px solid var(--btn-violet-700);
+}
+.dButton-004-violet:hover{
+  box-shadow: 5px 5px 0px 0px var(--btn-violet-450);
+}
+.dButton-004-orange{
+  background-color: var(--btn-orange);
+  border: 1px solid var(--btn-orange-700);
+}
+.dButton-004-orange:hover{
+  box-shadow: 5px 5px 0px 0px var(--btn-orange-450);
+}
+ .dButton-004-gray:hover{
+  box-shadow: 5px 5px 0px 0px gray !important;
+}
+
+
+ /* ----------dButton-005----------- */
+.dButton-005{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin:10px 10px;
+  color: white;
+  font-weight: bold;
+  transition: all .2s ease-in-out;
+}
+.dButton-005:hover{
+  cursor: pointer;
+  box-shadow: 0px 6px 6px 2px #d7d6d6;
+  transform: scale(.98);
+}
+.dButton-005-blue{
+  background-color: var(--btn-blue);
+  border: 2px solid var(--btn-blue-900);
+}
+.dButton-005-green{
+  background-color: var(--btn-green);
+  border: 2px solid var(--btn-green-900);
+}
+.dButton-005-red{
+  background-color: var(--btn-red);
+  border: 2px solid var(--btn-red-900);
+}
+.dButton-005-violet{
+  background-color: var(--btn-violet);
+  border: 2px solid var(--btn-violet-900);
+}
+.dButton-005-orange{
+  background-color: var(--btn-orange);
+  border: 2px solid var(--btn-orange-900);
+}
+
+ /* ----------dButton-006----------- */
+ .dButton-006{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  margin:10px 10px;
+  color: white;
+  font-weight: bold;
+  transition: all .2s ease-in-out;
+}
+.dButton-006:hover{
+  cursor: pointer;
+  box-shadow: 0px 5px 8px 0px #9f9f9f;
+  transform: translateY(2px);
+}
+.dButton-006-blue{
+  background-color: var(--btn-blue);
+  border: 1px solid var(--btn-blue-900);
+}
+.dButton-006-green{
+  background-color: var(--btn-green);
+  border: 1px solid var(--btn-green-900);
+}
+.dButton-006-red{
+  background-color: var(--btn-red);
+  border: 1px solid var(--btn-red-900);
+}
+.dButton-006-violet{
+  background-color: var(--btn-violet);
+  border: 1px solid var(--btn-violet-900);
+}
+.dButton-006-orange{
+  background-color: var(--btn-orange);
+  border: 1px solid var(--btn-orange-900);
+}
+
+ /* ----------dButton-007----------- */
+ .dButton-007{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  margin:10px 10px;
+  color: white;
+  font-weight: bold;
+  transition: all .3s ease-in-out;
+}
+.dButton-007:hover{
+    cursor: pointer;
+    color: white;
+ }
+.dButton-007-blue{
+    border: 1px solid var(--btn-blue-900);
+    color: var(--btn-blue-700);
+    background: linear-gradient(to right, var(--btn-blue) 5%,#e1e1e1 5%, #e1e1e1 95% ,var(--btn-blue) 95%);
+
+}
+.dButton-007-blue:hover{
+   background: linear-gradient(to right, var(--btn-blue),var(--btn-blue)  );
+
+}
+.dButton-007-red{
+  border: 1px solid var(--btn-red-900);
+  color: var(--btn-red-700);
+  background: linear-gradient(to right, var(--btn-red) 5%,#e1e1e1 5%, #e1e1e1 95% ,var(--btn-red) 95%);
+
+}
+.dButton-007-red:hover{
+ background: linear-gradient(to right, var(--btn-red),var(--btn-red)  );
+
+}
+.dButton-007-violet{
+  border: 1px solid var(--btn-violet-900);
+  color: var(--btn-violet-700);
+  background: linear-gradient(to right, var(--btn-violet) 5%,#e1e1e1 5%, #e1e1e1 95% ,var(--btn-violet) 95%);
+
+}
+.dButton-007-violet:hover{
+ background: linear-gradient(to right, var(--btn-violet),var(--btn-violet)  );
+
+}
+.dButton-007-orange{
+  border: 1px solid var(--btn-orange-900);
+  color: var(--btn-orange-700);
+  background: linear-gradient(to right, var(--btn-orange) 5%,#e1e1e1 5%, #e1e1e1 95% ,var(--btn-orange) 95%);
+
+}
+.dButton-007-orange:hover{
+ background: linear-gradient(to right, var(--btn-orange),var(--btn-orange)  );
+
+}
+.dButton-007-green{
+  border: 1px solid var(--btn-green-900);
+  color: var(--btn-green-700);
+  background: linear-gradient(to right, var(--btn-green) 5%,#e1e1e1 5%, #e1e1e1 95% ,var(--btn-green) 95%);
+
+}
+.dButton-007-green:hover{
+ background: linear-gradient(to right, var(--btn-green),var(--btn-green)  );
+
+}
+/* ----------dButton-008----------- */
+.dButton-008{
+  width: 100px;
+  height: 90px;
+  border-radius: 5px;
+  margin:10px 10px;
+  color: white;
+  font-weight: bold;
+  transition: all .3s ease-in-out;
+}
+.dButton-008:hover{
+    cursor: pointer;
+    color: white;
+    transform: translateX(5px);
+    box-shadow: 0px 5px 10px 2px #d0d0d0;
+ }
+ .dButton-008-blue{
+  border: 1px solid var(--btn-blue-900);
+  background-color:var(--btn-blue); 
+}
+.dButton-008-green{
+  border: 1px solid var(--btn-green-900);
+  background-color:var(--btn-green); 
+}
+.dButton-008-red{
+  border: 1px solid var(--btn-red-900);
+  background-color:var(--btn-red); 
+}
+.dButton-008-orange{
+  border: 1px solid var(--btn-orange-900);
+  background-color:var(--btn-orange); 
+}
+.dButton-008-violet{
+  border: 1px solid var(--btn-violet-900);
+  background-color:var(--btn-violet); 
+}
+
+/* ----------dButton-009----------- */
+.ZdButtons{
+  perspective: 400px;
+}
+.dButton-009{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  margin:10px 10px;
+  color: white;
+  font-weight: bold;
+  transition: all .3s ease-in-out;
+}
+
+.dButton-009:hover{
+  cursor: pointer;
+  color: white;
+  transform: translateZ(-15px);
+  box-shadow: 0px 0px 5px 0px #6a6a6a;
+ }
+ .dButton-009-blue{
+  border: 1px solid var(--btn-blue-900);
+  background-color:var(--btn-blue); 
+}
+.dButton-009-green{
+  border: 1px solid var(--btn-green-900);
+  background-color:var(--btn-green); 
+}
+.dButton-009-red{
+  border: 1px solid var(--btn-red-900);
+  background-color:var(--btn-red); 
+}
+.dButton-009-orange{
+  border: 1px solid var(--btn-orange-900);
+  background-color:var(--btn-orange); 
+}
+.dButton-009-violet{
+  border: 1px solid var(--btn-violet-900);
+  background-color:var(--btn-violet); 
+}
+
+/* ----------dButton-010----------- */
+
+.dButton-010{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  margin:10px 10px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  z-index:1 !important;
+  /* overflow: hidden; */
+}
+.dButton-010:hover{
+    cursor: pointer;
+    color: white;
+ }
+.dButton-010::before{
+  content:"";
+  display:inline-block;
+  position: absolute;
+  z-index:1 !important;
+  top:0;
+  left: 0%;
+  height: 100%;
+  width: 0%;
+  transition: all .5s ease-in-out;
+}
+
+.dButton-010::after{
+  content: "";
+  z-index: 1 !important;
+  display: inline-block;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 100%;
+  width: 0%;
+  transition: all .5s ease-in-out;
+}
+.dButton-010:hover::after,.dButton-010:hover::before{
+      width: 100%;
+}
+ 
+.dButton-010 span{
+  color:black;
+  position: relative;
+  z-index: 2 !important;
+  transition: all .3s ease-in-out;
+}
+.dButton-010:hover span{
+  color:white;
+  z-index: 2 !important;
+}
+.dButton-010-blue{
+  border: 1px solid var(--btn-blue-900);
+  color: var(--btn-blue-700);
+  background: linear-gradient(to right, var(--btn-blue) 5%,#e1e1e1 5%, #e1e1e1 95% ,var(--btn-blue) 95%);
+
+}
+.dButton-010-blue::before,.dButton-010-blue::after{
+background-color: var(--btn-blue);
+}
+.dButton-010-red{
+  border: 1px solid var(--btn-red-900);
+  color: var(--btn-red-700);
+  background: linear-gradient(to right, var(--btn-red) 5%,#e1e1e1 5%, #e1e1e1 95% ,var(--btn-red) 95%);
+
+}
+.dButton-010-red::before,.dButton-010-red::after{
+  background-color: var(--btn-red);
+}
+.dButton-010-green{
+  border: 1px solid var(--btn-green-900);
+  color: var(--btn-green-700);
+  background: linear-gradient(to right, var(--btn-green) 5%,#e1e1e1 5%, #e1e1e1 95% ,var(--btn-green) 95%);
+
+}
+.dButton-010-green::before,.dButton-010-green::after{
+background-color: var(--btn-green);
+}
+.dButton-010-orange{
+  border: 1px solid var(--btn-orange-900);
+  color: var(--btn-orange-700);
+  background: linear-gradient(to right, var(--btn-orange) 5%,#e1e1e1 5%, #e1e1e1 95% ,var(--btn-orange) 95%);
+
+}
+.dButton-010-orange::before,.dButton-010-orange::after{
+background-color: var(--btn-orange);
+}
+.dButton-010-violet{
+  border: 1px solid var(--btn-violet-900);
+  color: var(--btn-violet-700);
+  background: linear-gradient(to right, var(--btn-violet) 5%,#e1e1e1 5%, #e1e1e1 95% ,var(--btn-violet) 95%);
+
+}
+.dButton-010-violet::before,.dButton-010-violet::after{
+background-color: var(--btn-violet);
+}
+
+/* ----------dButton-011----------- */
+.dButton-011{
+  width: 100px;
+  height: 90px;
+  border-radius: 5px;
+  margin:10px 10px;
+  color: white;
+  font-weight: bold;
+  transition: all .3s ease-in-out;
+}
+.ZdButtons1{
+  perspective: 500px;
+}
+.dButton-011:hover{
+    cursor: pointer;
+    color: white;
+    transform: rotateX(25deg);
+    box-shadow: 0px 5px 10px 2px #d0d0d0;
+ }
+ .dButton-011-blue{
+  border: 1px solid var(--btn-blue-900);
+  background-color:var(--btn-blue); 
+  box-shadow: 0px 0px 0px 5px var(--btn-blue-300);
+}
+.dButton-011-green{
+  border: 1px solid var(--btn-green-900);
+  background-color:var(--btn-green); 
+  box-shadow: 0px 0px 0px 5px var(--btn-green-300);
+}
+.dButton-011-red{
+  border: 1px solid var(--btn-red-900);
+  background-color:var(--btn-red);
+  box-shadow: 0px 0px 0px 5px var(--btn-red-300); 
+}
+.dButton-011-orange{
+  border: 1px solid var(--btn-orange-900);
+  background-color:var(--btn-orange); 
+  box-shadow: 0px 0px 0px 5px var(--btn-orange-300);
+}
+.dButton-011-violet{
+  border: 1px solid var(--btn-violet-900);
+  background-color:var(--btn-violet); 
+  box-shadow: 0px 0px 0px 5px var(--btn-violet-300);
+}
+
+
+/* ----------dButton-012----------- */
+
+.dButton-012{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  margin:10px 10px;
+  color: white;
+  font-weight: bold;
+  --angle:45deg;
+   
+}
+@keyframes flow {
+  0%{--angle:45deg;}
+  10%{--angle:35deg;}
+  20%{--angle:25deg;}
+  30%{--angle:15deg;}
+  40%{--angle:5deg;}
+  50%{--angle:-5deg;}
+  60%{--angle:-15deg;}
+  70%{--angle:-25deg;}
+  80%{--angle:-35deg;}
+  90%{--angle:-45deg;}
+  100%{--angle:-55deg;}
+}
+.dButton-012:hover {
+  cursor: pointer;
+  color: white;
+  animation: flow  .3s linear forwards;
+  box-shadow: 0px 5px 10px 2px #d0d0d0;  
+}
+.dButton-012-red{
+   background: linear-gradient(var(--angle), var(--btn-red), var(--btn-green));
+ }
+ .dButton-012-blue{
+  background: linear-gradient(var(--angle), var(--btn-blue), var(--btn-red));
+}
+.dButton-012-green{
+  background: linear-gradient(var(--angle), var(--btn-green), var(--btn-orange));
+}
+.dButton-012-violet{
+  background: linear-gradient(var(--angle), var(--btn-violet), var(--btn-red));
+}
+.dButton-012-orange{
+  background: linear-gradient(var(--angle), var(--btn-orange), var(--btn-blue));
+}
+
+/* ----------dButton-013----------- */
+.dButton-013{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 10px 10px;
+  color: white;
+  transition: all .5s ease;
+  font-weight: bold;
+ }
+ .dButton-013:hover {
+  cursor: pointer;
+  color: white;
+  border: 0;
+  transform: translateX(3px); 
+}
+ .dButton-013-blue{
+  border: 5px solid var(--btn-blue-100);
+  background-color: var(--btn-blue);
+  box-shadow: 0px 0px 0px 3px var(--btn-blue);
+}
+.dButton-013-red{
+  border: 5px solid var(--btn-red-100);
+  background-color: var(--btn-red);
+  box-shadow: 0px 0px 0px 3px var(--btn-red);
+}
+.dButton-013-violet{
+  border: 5px solid var(--btn-violet-100);
+  background-color: var(--btn-violet);
+  box-shadow: 0px 0px 0px 3px var(--btn-violet);
+}
+.dButton-013-orange{
+  border: 5px solid var(--btn-orange-100);
+  background-color: var(--btn-orange);
+  box-shadow: 0px 0px 0px 3px var(--btn-orange);
+}
+.dButton-013-green{
+  border: 5px solid var(--btn-green-100);
+  background-color: var(--btn-green);
+  box-shadow: 0px 0px 0px 3px var(--btn-green);
+}
+
+/* ----------dButton-014----------- */
+.dButton-014{
+  width: 200px;
+  height: 50px;
+  border-radius: 25px 25px 0 0;
+  margin: 10px 10px;
+  color: black;
+  transition: all .5s ease;
+  font-weight: bold;
+  background-color: rgb(232, 232, 232);
+  position: relative;
+  transition: all .5s ease-in-out;
+ }
+ .dButton-014::after{
+  content: "";
+  z-index: 1 !important;
+  display: inline-block;
+  position: absolute;
+  bottom: -10px;
+  left: 0%;
+  height: 6px;
+  width: 100%;
+  transition: all .2s ease-in-out;
+}
+ .dButton-014:hover {
+  cursor: pointer;
+  color: white;   
+}
+.dButton-014:hover::after{
+  height: 2px;
+  bottom: 0px;
+ }
+.dButton-014-blue{
+  border: 1px solid var(--btn-blue);
+  color:var(--btn-blue-700)
+}
+.dButton-014-blue::after{
+  background-color: var(--btn-blue);
+}
+.dButton-014-blue:hover{
+  background-color:var(--btn-blue);
+}
+.dButton-014-red{
+  border: 1px solid var(--btn-red);
+  color:var(--btn-red-700)
+}
+.dButton-014-red::after{
+  background-color: var(--btn-red);
+}
+.dButton-014-red:hover{
+  background-color:var(--btn-red);
+}
+.dButton-014-green{
+  border: 1px solid var(--btn-green);
+  color:var(--btn-green-700)
+}
+.dButton-014-green::after{
+  background-color: var(--btn-green);
+}
+.dButton-014-green:hover{
+  background-color:var(--btn-green);
+}
+.dButton-014-orange{
+  border: 1px solid var(--btn-orange);
+  color:var(--btn-orange-700)
+}
+.dButton-014-orange::after{
+  background-color: var(--btn-orange);
+}
+.dButton-014-orange:hover{
+  background-color:var(--btn-orange);
+}
+.dButton-014-violet{
+  border: 1px solid var(--btn-violet);
+  color:var(--btn-violet-700)
+}
+.dButton-014-violet::after{
+  background-color: var(--btn-violet);
+}
+.dButton-014-violet:hover{
+  background-color:var(--btn-violet);
+}
+
+/* ----------dButton-015----------- */
+.dButton-015{
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 10px 10px;
+  color: white;
+  transition: all .5s ease;
+  transform: skewX(-10deg);
+  box-shadow: 10px 5px 0 -2px gray;
+  font-weight: bold;
+ }
+ .dButton-015:hover {
+  cursor: pointer;
+  color: white;
+  box-shadow: 4px 3px 0 0px gray;
+  transform: skewX(-3deg);
+}
+ .dButton-015-blue{
+  border: 2px solid var(--btn-blue-100);
+  background-color: var(--btn-blue);
+ }  
+ .dButton-015-green{
+  border: 2px solid var(--btn-green-100);
+  background-color: var(--btn-green);
+ }  
+ .dButton-015-red{
+  border: 2px solid var(--btn-red-100);
+  background-color: var(--btn-red);
+ } 
+ .dButton-015-orange{
+  border: 2px solid var(--btn-orange-100);
+  background-color: var(--btn-orange);
+ } 
+ .dButton-015-violet{
+  border: 2px solid var(--btn-violet-100);
+  background-color: var(--btn-violet);
+ } 
+
+/* ----------dButton-016----------- */
+.dButton-016{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin:10px 20px;
+  color: white;
+  font-weight: bold;
+  transition: all .2s ease-in-out;
+  position: relative;
+  overflow: hidden; 
+}
+.dButton-016::after{
+  content: "";
+  z-index: 1 !important;
+  display: inline-block;
+  position: absolute;
+  bottom: -50%;
+  right: -100%;
+  height: 200%;
+  width: 100px;
+  background: linear-gradient(to right, rgba(255,255,255,0.01) 10%, rgba(255,255,255,0.3),rgba(255,255,255,0.01) 90%);
+  transition: all .75s ease-in-out;
+  transform: skewX(-35deg);
+}
+.dButton-016:hover{
+  cursor: pointer;
+}
+.dButton-016:hover::after{
+  right:150%;
+}
+.dButton-016-blue{
+  background-color: var(--btn-blue);
+  border: 1px solid var(--btn-blue-700);
+  box-shadow: 0px 0px 1px 10px var(--btn-blue-100);
+}
+.dButton-016-blue:hover{
+  box-shadow: 0px 0px 0px 5px var(--btn-blue-100);
+}
+.dButton-016-red{
+  background-color: var(--btn-red);
+  border: 1px solid var(--btn-red-700);
+  box-shadow: 0px 0px 1px 10px var(--btn-red-100);
+}
+.dButton-016-red:hover{
+  box-shadow: 0px 0px 0px 5px var(--btn-red-100);
+}
+.dButton-016-green{
+  background-color: var(--btn-green);
+  border: 1px solid var(--btn-green-700);
+  box-shadow: 0px 0px 1px 10px var(--btn-green-100);
+}
+.dButton-016-green:hover{
+  box-shadow: 0px 0px 0px 5px var(--btn-green-100);
+}
+
+.dButton-016-orange{
+  background-color: var(--btn-orange);
+  border: 1px solid var(--btn-orange-700);
+  box-shadow: 0px 0px 1px 10px var(--btn-orange-100);
+}
+.dButton-016-orange:hover{
+  box-shadow: 0px 0px 0px 5px var(--btn-orange-100);
+}
+.dButton-016-violet{
+  background-color: var(--btn-violet);
+  border: 1px solid var(--btn-violet-700);
+  box-shadow: 0px 0px 1px 10px var(--btn-violet-100);
+}
+.dButton-016-violet:hover{
+  box-shadow: 0px 0px 0px 5px var(--btn-violet-100);
+}
+
+/* ----------dButton-017----------- */
+.dButton-017{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  margin:10px 20px;
+  color: white;
+  font-weight: bold;
+  transition: all .5s ease-in-out;
+  transform: skewX(4deg);
+}
+ 
+.dButton-017:hover{
+  cursor: pointer;
+  box-shadow:none;
+  transform: skewX(-4deg);
+  border: 2px solid #d0d0d0;
+  
+}
+ 
+.dButton-017-blue{
+  background-color: var(--btn-blue);
+  border: 1px solid var(--btn-blue-700);
+  box-shadow: 3px 3px 0px 0px var(--btn-blue-450), 6px 6px 0px 0px var(--btn-blue-300), 9px 9px 0px 0px var(--btn-blue-100);
+ 
+}
+.dButton-017-red{
+  background-color: var(--btn-red);
+  border: 1px solid var(--btn-red-700);
+  box-shadow: 3px 3px 0px 0px var(--btn-red-450), 6px 6px 0px 0px var(--btn-red-300), 9px 9px 0px 0px var(--btn-red-100);
+ 
+}
+.dButton-017-green{
+  background-color: var(--btn-green);
+  border: 1px solid var(--btn-green-700);
+  box-shadow: 3px 3px 0px 0px var(--btn-green-450), 6px 6px 0px 0px var(--btn-green-300), 9px 9px 0px 0px var(--btn-green-100);
+ 
+}
+.dButton-017-orange{
+  background-color: var(--btn-orange);
+  border: 1px solid var(--btn-orange-700);
+  box-shadow: 3px 3px 0px 0px var(--btn-orange-450), 6px 6px 0px 0px var(--btn-orange-300), 9px 9px 0px 0px var(--btn-orange-100);
+ 
+}
+.dButton-017-violet{
+  background-color: var(--btn-violet);
+  border: 1px solid var(--btn-violet-700);
+  box-shadow: 3px 3px 0px 0px var(--btn-violet-450), 6px 6px 0px 0px var(--btn-violet-300), 9px 9px 0px 0px var(--btn-violet-100);
+ 
+}
+
+
+/* ----------dButton-018----------- */
+.dButton-018{
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  margin:10px 20px;
+  font-weight: bold;
+  background-color:transparent;
+  position: relative;;
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+}
+.dButton-018::after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  height: 300%;
+  width: 10px;
+  transition: all .75s ease-in-out;
+  
+}
+ .dButton-018:hover{
+  cursor: pointer;
+  border-width: 4px;
+  background-color: #eee;
+}
+.dButton-018:hover::after{
+  left: 110%;
+}
+.dButton-018-blue{
+  border: 3px solid var(--btn-blue);
+  color:var(--btn-blue-700); 
+}
+.dButton-018-blue:hover::after{
+  background-color:var(--btn-blue-300) ;
+}
+.dButton-018-red{
+  border: 3px solid var(--btn-red);
+  color:var(--btn-red-700); 
+}
+.dButton-018-red:hover::after{
+  background-color:var(--btn-red-300) ;
+}
+.dButton-018-green{
+  border: 3px solid var(--btn-green);
+  color:var(--btn-green-700); 
+}
+.dButton-018-green:hover::after{
+  background-color:var(--btn-green-300) ;
+}
+.dButton-018-orange{
+  border: 3px solid var(--btn-orange);
+  color:var(--btn-orange-700); 
+}
+.dButton-018-orange:hover::after{
+  background-color:var(--btn-orange-300) ;
+}
+.dButton-018-violet{
+  border: 3px solid var(--btn-violet);
+  color:var(--btn-violet-700); 
+}
+.dButton-018-violet:hover::after{
+  background-color:var(--btn-violet-300) ;
+}
+
+/* ----------dButton-019----------- */
+.dButton-019{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin:10px 20px;
+  color:white;
+  font-weight: bold;
+  position: relative;;
+  border: 1px solid white;
+  transition: all 1s ease-in-out;
+   
+}
+.dButton-019::after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  height: 110%;
+  width: 110%;
+  border-radius: 50%;
+  z-index: -1;
+  --grd-angle:0%;
+  background: conic-gradient(from 0deg, var(--grd-color) 0%, var(--grd-color) var(--grd-angle), #cccc var(--grd-angle), #cccc 100%);
+ 
+}
+ .dButton-019:hover{
+  cursor: pointer;
+}
+.dButton-019:hover::after{
+   animation: encircle  .5s ease forwards;
+}
+@keyframes encircle {
+  0%{ --grd-angle:0%;}
+  10%{ --grd-angle:10%;}
+  20%{ --grd-angle:20%;}
+  30%{ --grd-angle:30%;}
+  40%{ --grd-angle:40%;}
+  50%{ --grd-angle:50%;}
+  60%{ --grd-angle:60%;}
+  70%{ --grd-angle:70%;}
+  80%{ --grd-angle:80%;}
+  90%{ --grd-angle:90%;}
+  100%{ --grd-angle:100%;}
+}
+.dButton-019-blue{
+  background-color:var(--btn-blue);
+  --grd-color: var(--btn-blue);
+}
+.dButton-019-blue:hover{
+  background-color:var(--btn-blue-450);
+ 
+}
+.dButton-019-red{
+  background-color:var(--btn-red);
+  --grd-color: var(--btn-red);
+}
+.dButton-019-red:hover{
+  background-color:var(--btn-red-450);
+ 
+}
+.dButton-019-green{
+  background-color:var(--btn-green);
+  --grd-color: var(--btn-green);
+}
+.dButton-019-green:hover{
+  background-color:var(--btn-green-450);
+ 
+}
+.dButton-019-orange{
+  background-color:var(--btn-orange);
+  --grd-color: var(--btn-orange);
+}
+.dButton-019-orange:hover{
+  background-color:var(--btn-orange-450);
+ 
+}
+.dButton-019-violet{
+  background-color:var(--btn-violet);
+  --grd-color: var(--btn-violet);
+}
+.dButton-019-violet:hover{
+  background-color:var(--btn-violet-450);
+ 
+}
+
+/* ----------dButton-020----------- */
+.dButton-020{
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  margin:10px 20px;
+  color:white;
+  font-weight: bold;
+  position: relative;;
+  border: 1px solid gray;
+  outline-offset: 5px;
+  transition: all .5s ease-in-out;
+ }
+ .dButton-020:hover{
+  cursor: pointer;
+  outline-offset: 0px;  
+}
+.dButton-020-blue{
+  outline: 2px solid var(--btn-blue);
+  background-color:var(--btn-blue);  
+}
+.dButton-020-blue:hover{
+  background-color:var(--btn-blue-500); 
+}
+.dButton-020-red{
+  outline: 2px solid var(--btn-red);
+  background-color:var(--btn-red);  
+}
+.dButton-020-red:hover{
+  background-color:var(--btn-red-500); 
+}
+.dButton-020-orange{
+  outline: 2px solid var(--btn-orange);
+  background-color:var(--btn-orange);  
+}
+.dButton-020-orange:hover{
+  background-color:var(--btn-orange-500); 
+}
+.dButton-020-violet{
+  outline: 2px solid var(--btn-violet);
+  background-color:var(--btn-violet);  
+}
+.dButton-020-violet:hover{
+  background-color:var(--btn-violet-500); 
+}
+.dButton-020-green{
+  outline: 2px solid var(--btn-green);
+  background-color:var(--btn-green);  
+}
+.dButton-020-green:hover{
+  background-color:var(--btn-green-500); 
+}
+
+/* ----------dButton-021----------- */
+.dButton-021{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  margin:10px 20px;
+  font-weight: bold;
+  position: relative;;
+  overflow: hidden;
+  background-color: transparent;
+  transition: all .5s ease-in-out;
+ }
+.dButton-021::after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom:  -110%;
+  left: 0%;
+  border-radius: 90%;
+  height: 200%;
+  width: 100%;
+  z-index:-1;
+  transition: all .75s ease-in-out;
+}
+ .dButton-021:hover{
+  cursor: pointer;
+  color:white; 
+}
+.dButton-021:hover::after{
+  bottom:  0%;
+  left: 0%;
+  border-radius: 0;
+  height: 100%;
+ 
+}
+.dButton-021-blue{
+   color:var(--btn-blue);
+   border: 2px solid var(--btn-blue);
+}
+.dButton-021-blue::after{
+  background-color: var(--btn-blue-093);
+}
+.dButton-021-blue:hover::after{
+   background-color: var(--btn-blue);
+}
+.dButton-021-red{
+  color:var(--btn-red);
+  border: 2px solid var(--btn-red);
+}
+.dButton-021-red::after{
+  background-color: var(--btn-red-093);
+}
+.dButton-021-red:hover::after{
+  background-color: var(--btn-red);
+}
+.dButton-021-green{
+  color:var(--btn-green);
+  border: 2px solid var(--btn-green);
+}
+.dButton-021-green::after{
+  background-color: var(--btn-green-093);
+}
+.dButton-021-green:hover::after{
+  background-color: var(--btn-green);
+}
+.dButton-021-orange{
+  color:var(--btn-orange);
+  border: 2px solid var(--btn-orange);
+}
+.dButton-021-orange::after{
+  background-color: var(--btn-orange-093);
+}
+.dButton-021-orange:hover::after{
+  background-color: var(--btn-orange);
+}
+.dButton-021-violet{
+  color:var(--btn-violet);
+  border: 2px solid var(--btn-violet);
+}
+.dButton-021-violet::after{
+ background-color: var(--btn-violet-093);
+}
+.dButton-021-violet:hover::after{
+  background-color: var(--btn-violet);
+}
+
+/* ----------dButton-022----------- */
+.dButton-022{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin:10px 20px;
+  color:white;
+  font-weight: bold;
+  position: relative;;
+  border: 2px solid white;
+  transition: all 1s ease-in-out;  
+}
+.dButton-022::after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  height: 110%;
+  width: 110%;
+  border-radius: 50%;
+  z-index: -1;
+  background: conic-gradient(from 90deg, var(--grdn-color) 50%, var(--grdn-color) 0, #cccc 0, #cccc 100%);
+  transition: all .5s  ease-in-out;
+}
+ .dButton-022:hover{
+  cursor: pointer;
+}
+.dButton-022:hover::after{
+  transform: rotate(180deg);
+}
+.dButton-022-blue{
+  background-color:var(--btn-blue);
+  --grdn-color: var(--btn-blue);
+}
+.dButton-022-blue:hover{
+  background-color:var(--btn-blue-450);
+}
+.dButton-022-red{
+  background-color:var(--btn-red);
+  --grdn-color: var(--btn-red);
+}
+.dButton-022-red:hover{
+  background-color:var(--btn-red-450); 
+}
+.dButton-022-green{
+  background-color:var(--btn-green);
+  --grdn-color: var(--btn-green);
+}
+.dButton-022-green:hover{
+  background-color:var(--btn-green-450); 
+}
+.dButton-022-orange{
+  background-color:var(--btn-orange);
+  --grdn-color: var(--btn-orange);
+}
+.dButton-022-orange:hover{
+  background-color:var(--btn-orange-450); 
+}
+.dButton-022-violet{
+  background-color:var(--btn-violet);
+  --grdn-color: var(--btn-violet);
+}
+.dButton-022-violet:hover{
+  background-color:var(--btn-violet-450);
+ }
+
+/* ----------dButton-023----------- */
+.dButton-023{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  margin:10px 20px;
+  color:white;
+  font-weight: bold;
+  position: relative;;
+  transition: all .3s ease-in-out;  
+  border: 2px solid var(--border-color);
+  box-shadow: 5px 5px 0px 0px var(--btn-shadow-color);
+  background-color:transparent;
+}
+ .dButton-023:hover{
+   cursor: pointer;
+   box-shadow: -4px -4px 0px 0px var(--btn-shadow-color);
+   border-width:3px;
+   background-color: #f4f4f4;
+}
+.dButton-023-blue{
+   --btn-shadow-color:var(--btn-blue-450);
+   --border-color:var(--btn-blue);
+   color:var(--btn-blue-700);
+}
+.dButton-023-red{
+  --btn-shadow-color:var(--btn-red-450);
+  --border-color:var(--btn-red);
+  color:var(--btn-red-700);
+}
+.dButton-023-green{
+  --btn-shadow-color:var(--btn-green-450);
+  --border-color:var(--btn-green);
+  color:var(--btn-green-700);
+}
+.dButton-023-violet{
+  --btn-shadow-color:var(--btn-violet-450);
+  --border-color:var(--btn-violet);
+  color:var(--btn-violet-700);
+}
+.dButton-023-orange{
+  --btn-shadow-color:var(--btn-orange-450);
+  --border-color:var(--btn-orange);
+  color:var(--btn-orange-700);
+}
+
+/* ----------dButton-024----------- */
+.dButton-024{
+  width: 200px;
+  height: 50px;
+  border-radius: 5px 50px 50px 5px;
+  margin:10px 20px;
+  color:white;
+  font-weight: bold;
+  position: relative;;
+  transition: all .3s ease-in-out;  
+  border: 2px solid var(--border-color);
+  box-shadow: 7px 0px 0px 0px var(--btn-shadow-color);
+  background-color:transparent;
+}
+ .dButton-024:hover{
+   cursor: pointer;
+   box-shadow: 0px 0px 0px 0px var(--btn-shadow-color);
+   background-color:var(--btn-background-color);
+   color:white;
+   transform: scale(.995);
+}
+.dButton-024-blue{
+   --btn-background-color:var(--btn-blue-300);
+   --btn-shadow-color:var(--btn-blue-450);
+   --border-color:var(--btn-blue);
+   color:var(--btn-blue-700);
+}
+.dButton-024-red{
+  --btn-background-color:var(--btn-red-300);
+  --btn-shadow-color:var(--btn-red-450);
+  --border-color:var(--btn-red);
+  color:var(--btn-red-700);
+}
+.dButton-024-green{
+  --btn-background-color:var(--btn-green-300);
+  --btn-shadow-color:var(--btn-green-450);
+  --border-color:var(--btn-green);
+  color:var(--btn-green-700);
+}
+.dButton-024-orange{
+  --btn-background-color:var(--btn-orange-300);
+  --btn-shadow-color:var(--btn-orange-450);
+  --border-color:var(--btn-orange);
+  color:var(--btn-orange-700);
+}
+.dButton-024-violet{
+  --btn-background-color:var(--btn-violet-300);
+  --btn-shadow-color:var(--btn-violet-450);
+  --border-color:var(--btn-violet);
+  color:var(--btn-violet-700);
+}
+
+/* ----------dButton-025----------- */
+.dButton-025{
+  width: 200px;
+  height: 50px;
+  border-radius:  5px ;
+  margin:10px 20px;
+  font-weight: bold;
+  position: relative;;
+  transition: all .3s ease-in-out;  
+   background-color:transparent;
+}
+.dButton-025::before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: -10%;
+  left: 2px;
+  height: 20px;
+  width: 25px;
+  border-radius: 50px;
+  background:white ;
+  
+  transition: all .5s  ease-in-out;
+}
+.dButton-025::after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom:  -10%;
+  right: 2px;
+  height: 20px;
+  width: 25px;
+  border-radius: 50px;
+  background:white ;
+  transition: all .5s  ease-in-out;
+  overflow: hidden;
+  
+}
+ .dButton-025:hover{
+   cursor: pointer;
+ }
+.dButton-025:hover::before{
+     left: 85%;
+  opacity:1;
+}
+.dButton-025:hover::after{
+     right:85%;
+  opacity:1;
+}
+.dButton-025-blue{
+   border:2px solid var(--btn-blue);
+   color:var(--btn-blue-700);
+}
+.dButton-025-red{
+  border:2px solid var(--btn-red);
+  color:var(--btn-red-700); 
+}
+.dButton-025-green{
+  border:2px solid var(--btn-green);
+  color:var(--btn-green-700); 
+}
+.dButton-025-orange{
+  border:2px solid var(--btn-orange);
+  color:var(--btn-orange-700); 
+}
+.dButton-025-violet{
+  border:2px solid var(--btn-violet);
+  color:var(--btn-violet-700); 
+}
+
+/* ----------dButton-026----------- */
+.dButton-026{
+  width: 200px;
+  height: 50px;
+  border-radius:  5px ;
+  margin:10px 20px;
+  font-weight: bold;
+  color: white; 
+  border:none;
+  
+}
+.dButton-026:hover{
+   cursor: pointer;
+   animation: shake 0.5s ease;  
+ }
+@keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            20% { transform: translateX(-3px) rotate(-2deg); }
+            40% { transform: translateX(3px) rotate(2deg); }
+        }
+.dButton-026-blue{
+  background:linear-gradient(135deg,transparent 10px, var(--btn-blue) 10px,  var(--btn-blue-700) 100%); 
+}
+.dButton-026-red{
+  background:linear-gradient(135deg,transparent 10px, var(--btn-red) 10px,  var(--btn-red-700) 100%); 
+}
+.dButton-026-green{
+  background:linear-gradient(135deg,transparent 10px, var(--btn-green) 10px,  var(--btn-green-700) 100%); 
+}
+.dButton-026-violet{
+  background:linear-gradient(135deg,transparent 10px, var(--btn-violet) 10px,  var(--btn-violet-700) 100%); 
+}
+.dButton-026-orange{
+  background:linear-gradient(135deg,transparent 10px, var(--btn-orange) 10px,  var(--btn-orange-700) 100%); 
+}
+
+/* ----------dButton-027----------- */
+.dButton-027{
+  width: 150px;
+  height: 50px;
+  border-radius:5px ;
+  margin:10px 20px;
+  font-weight: bold;
+  color: white; 
+  border:1px solid #aaaa;
+  transition: all .5s ease;
+}
+.dButton-027:hover{
+  cursor: pointer;
+  background-size: 100% 100%;
+  text-shadow: 0px 0px 5px #000;
+  box-shadow: 0px 0px 0px 1px #b5b5b5;
+ }
+.dButton-027-blue{
+  background: linear-gradient(135deg, var(--btn-blue) 10%, var(--btn-blue-300) 40%);
+  background-size: 200% 200%;
+}
+.dButton-027-red{
+  background: linear-gradient(135deg, var(--btn-red) 10%, var(--btn-red-300) 40%);
+  background-size: 200% 200%;
+}
+.dButton-027-green{
+  background: linear-gradient(135deg, var(--btn-green) 10%, var(--btn-green-300) 40%);
+  background-size: 200% 200%;
+}
+.dButton-027-orange{
+  background: linear-gradient(135deg, var(--btn-orange) 10%, var(--btn-orange-300) 40%);
+  background-size: 200% 200%;
+}
+.dButton-027-violet{
+  background: linear-gradient(135deg, var(--btn-violet) 10%, var(--btn-violet-300) 40%);
+  background-size: 200% 200%;
+}
+
+/* ----------dButton-028----------- */
+.dButton-028{
+  width: 150px;
+  height: 50px;
+  border-radius:5px ;
+  margin:10px 20px;
+  font-weight: bold;
+  color: white; 
+  border: none;
+  transition: all .5s ease;
+}
+.dButton-028:hover{
+  cursor: pointer;
+  background-size: 100% 100%;
+  text-shadow: 0px 0px 5px #000;
+  box-shadow: -2px -2px 0 1px #bbbb;
+ }
+.dButton-028-blue{
+  background: linear-gradient(135deg, var(--btn-blue) 10%, var(--btn-blue) 90%, transparent 90%);
+  background-size: 130% 130%;
+}
+.dButton-028-red{
+  background: linear-gradient(135deg, var(--btn-red) 10%, var(--btn-red) 90%, transparent 90%);
+  background-size: 130% 130%;
+}
+.dButton-028-green{
+  background: linear-gradient(135deg, var(--btn-green) 10%, var(--btn-green) 90%, transparent 90%);
+  background-size: 130% 130%;
+}
+.dButton-028-violet{
+  background: linear-gradient(135deg, var(--btn-violet) 10%, var(--btn-violet) 90%, transparent 90%);
+  background-size: 130% 130%;
+}
+.dButton-028-orange{
+  background: linear-gradient(135deg, var(--btn-orange) 10%, var(--btn-orange) 90%, transparent 90%);
+  background-size: 130% 130%;
+}
+/* ----------dButton-029----------- */
+.dButton-029{
+  width: 200px;
+  height: 50px;
+  border-radius:5px ;
+  margin:10px 20px;
+  font-weight: bold;
+  background-color:transparent;
+  transition: all .2s ease;
+}
+.dButton-029:hover{
+  cursor: pointer;
+  border-width:4px
+ }
+.dButton-029-blue{
+ border:8px double var(--btn-blue);
+ color:  var(--btn-blue); 
+}
+.dButton-029-red{
+  border:8px double var(--btn-red);
+  color:  var(--btn-red); 
+ }
+ .dButton-029-green{
+  border:8px double var(--btn-green);
+  color:  var(--btn-green); 
+ }
+ .dButton-029-orange{
+  border:8px double var(--btn-orange);
+  color:  var(--btn-orange); 
+ }
+ .dButton-029-violet{
+  border:8px double var(--btn-violet);
+  color:  var(--btn-violet); 
+ }
+
+/* ----------dButton-030----------- */
+.dButton-030{
+    width: 150px;
+    height: 50px;
+    border-radius:5px ;
+    margin:10px 20px;
+    font-weight: bold;
+    background-color:transparent;
+    transition: all .5s ease;
+    border: none;
+  }
+.dButton-030:hover{
+   cursor: pointer;
+   border-top-width:  6px ;
+   border-bottom-width:  1px ;
+}
+.dButton-030-blue{
+  border-top: 1px solid var(--btn-blue);
+  border-bottom: 6px solid var(--btn-blue);
+  color:  var(--btn-blue); 
+}
+.dButton-030-blue:hover{
+   background-color: var(--btn-blue-100);
+}
+.dButton-030-red{
+  border-top: 1px solid var(--btn-red);
+  border-bottom: 6px solid var(--btn-red);
+  color:  var(--btn-red); 
+}
+.dButton-030-red:hover{
+   background-color: var(--btn-red-100);
+}
+.dButton-030-green{
+  border-top: 1px solid var(--btn-green);
+  border-bottom: 6px solid var(--btn-green);
+  color:  var(--btn-green); 
+}
+.dButton-030-green:hover{
+   background-color: var(--btn-green-100);
+}
+
+.dButton-030-orange{
+  border-top: 1px solid var(--btn-orange);
+  border-bottom: 6px solid var(--btn-orange);
+  color:  var(--btn-orange); 
+}
+.dButton-030-orange:hover{
+   background-color: var(--btn-orange-100);
+}
+.dButton-030-violet{
+  border-top: 1px solid var(--btn-violet);
+  border-bottom: 6px solid var(--btn-violet);
+  color:  var(--btn-violet); 
+}
+.dButton-030-violet:hover{
+   background-color: var(--btn-violet-100);
+}
+
+/* ----------dButton-031----------- */
+.dButton-031{
+  width: 75px;
+  height: 75px;
+  border-radius:5px ;
+  margin:10px 20px;
+  font-weight: bold;
+  background-color:transparent;
+  transition: all .5s ease;
+ 
+}
+.dButton-031:hover{
+ cursor: pointer;
+ 
+}
+.dButton-031-blue{
+    border: 1px solid var(--btn-blue);
+    box-shadow:0px -10px 0px 0px var(--btn-blue-500), 10px 0px 0px 0px var(--btn-blue-450), 0px 10px 0px 0px var(--btn-blue-300), -10px 0px 0px 0px var(--btn-blue-100),0px 0px 0px 10px var(--btn-blue) ;
+    color:  var(--btn-blue); 
+}
+.dButton-031-blue:hover{
+   box-shadow:10px 0px 0px 0px var(--btn-blue-500), 0px 10px 0px 0px var(--btn-blue-450), -10px 0px 0px 0px var(--btn-blue-300), 0px -10px 0px 0px var(--btn-blue-100),0px 0px 0px 10px #c8c8c8;
+}
+.dButton-031-red{
+  border: 1px solid var(--btn-red);
+  box-shadow:0px -10px 0px 0px var(--btn-red-500), 10px 0px 0px 0px var(--btn-red-450), 0px 10px 0px 0px var(--btn-red-300), -10px 0px 0px 0px var(--btn-red-100),0px 0px 0px 10px var(--btn-red) ;
+  color:  var(--btn-red); 
+}
+.dButton-031-red:hover{
+ box-shadow:10px 0px 0px 0px var(--btn-red-500), 0px 10px 0px 0px var(--btn-red-450), -10px 0px 0px 0px var(--btn-red-300), 0px -10px 0px 0px var(--btn-red-100),0px 0px 0px 10px #c8c8c8;
+}
+.dButton-031-green{
+  border: 1px solid var(--btn-green);
+  box-shadow:0px -10px 0px 0px var(--btn-green-500), 10px 0px 0px 0px var(--btn-green-450), 0px 10px 0px 0px var(--btn-green-300), -10px 0px 0px 0px var(--btn-green-100),0px 0px 0px 10px var(--btn-green) ;
+  color:  var(--btn-green); 
+}
+.dButton-031-green:hover{
+ box-shadow:10px 0px 0px 0px var(--btn-green-500), 0px 10px 0px 0px var(--btn-green-450), -10px 0px 0px 0px var(--btn-green-300), 0px -10px 0px 0px var(--btn-green-100),0px 0px 0px 10px #c8c8c8;
+}
+.dButton-031-orange{
+  border: 1px solid var(--btn-orange);
+  box-shadow:0px -10px 0px 0px var(--btn-orange-500), 10px 0px 0px 0px var(--btn-orange-450), 0px 10px 0px 0px var(--btn-orange-300), -10px 0px 0px 0px var(--btn-orange-100),0px 0px 0px 10px var(--btn-orange) ;
+  color:  var(--btn-orange); 
+}
+.dButton-031-orange:hover{
+ box-shadow:10px 0px 0px 0px var(--btn-orange-500), 0px 10px 0px 0px var(--btn-orange-450), -10px 0px 0px 0px var(--btn-orange-300), 0px -10px 0px 0px var(--btn-orange-100),0px 0px 0px 10px #c8c8c8;
+}
+
+.dButton-031-violet{
+  border: 1px solid var(--btn-violet);
+  box-shadow:0px -10px 0px 0px var(--btn-violet-500), 10px 0px 0px 0px var(--btn-violet-450), 0px 10px 0px 0px var(--btn-violet-300), -10px 0px 0px 0px var(--btn-violet-100),0px 0px 0px 10px var(--btn-violet) ;
+  color:  var(--btn-violet); 
+}
+.dButton-031-violet:hover{
+ box-shadow:10px 0px 0px 0px var(--btn-violet-500), 0px 10px 0px 0px var(--btn-violet-450), -10px 0px 0px 0px var(--btn-violet-300), 0px -10px 0px 0px var(--btn-violet-100),0px 0px 0px 10px #c8c8c8;
+}
+
+/* ----------dButton-032----------- */
+.dButton-032{
+  width: 150px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border:none;
+  background-color:white;
+  transition: all .4s ease;
+}
+.dButton-032:hover{
+ cursor: pointer;
+ background-color: #eeee;
+}
+.dButton-032-blue{
+  color:  var(--btn-blue); 
+  box-shadow: 0px 20px 0px -10px rgba(255,255,255,1), 0px -20px 0px -10px rgba(255,255,255,1), 20px 0px 0px -10px rgba(255,255,255,1), -20px 0px 0px -10px rgba(255,255,255,1), 0px 0px 0px 5px var(--btn-blue);   
+}
+.dButton-032-blue:hover{
+  color: var(--btn-blue-700);
+  box-shadow: 0px 20px 0px -10px rgba(255,255,255,.7), 0px -20px 0px -10px rgba(255,255,255,.7), 20px 0px 0px -10px rgba(255,255,255,.7), -20px 0px 0px -10px rgba(255,255,255,.7), 0px 0px 0px 5px var(--btn-blue);
+}
+.dButton-032-red{
+  color:  var(--btn-red); 
+  box-shadow: 0px 20px 0px -10px rgba(255,255,255,1), 0px -20px 0px -10px rgba(255,255,255,1), 20px 0px 0px -10px rgba(255,255,255,1), -20px 0px 0px -10px rgba(255,255,255,1), 0px 0px 0px 5px var(--btn-red);   
+}
+.dButton-032-red:hover{
+  color: var(--btn-red-700);
+  box-shadow: 0px 20px 0px -10px rgba(255,255,255,.7), 0px -20px 0px -10px rgba(255,255,255,.7), 20px 0px 0px -10px rgba(255,255,255,.7), -20px 0px 0px -10px rgba(255,255,255,.7), 0px 0px 0px 5px var(--btn-red);
+}
+.dButton-032-green{
+  color:  var(--btn-green); 
+  box-shadow: 0px 20px 0px -10px rgba(255,255,255,1), 0px -20px 0px -10px rgba(255,255,255,1), 20px 0px 0px -10px rgba(255,255,255,1), -20px 0px 0px -10px rgba(255,255,255,1), 0px 0px 0px 5px var(--btn-green);   
+}
+.dButton-032-green:hover{
+  color: var(--btn-green-700);
+  box-shadow: 0px 20px 0px -10px rgba(255,255,255,.7), 0px -20px 0px -10px rgba(255,255,255,.7), 20px 0px 0px -10px rgba(255,255,255,.7), -20px 0px 0px -10px rgba(255,255,255,.7), 0px 0px 0px 5px var(--btn-green);
+}
+.dButton-032-orange{
+  color:  var(--btn-orange); 
+  box-shadow: 0px 20px 0px -10px rgba(255,255,255,1), 0px -20px 0px -10px rgba(255,255,255,1), 20px 0px 0px -10px rgba(255,255,255,1), -20px 0px 0px -10px rgba(255,255,255,1), 0px 0px 0px 5px var(--btn-orange);   
+}
+.dButton-032-orange:hover{
+  color: var(--btn-ornge-700);
+  box-shadow: 0px 20px 0px -10px rgba(255,255,255,.7), 0px -20px 0px -10px rgba(255,255,255,.7), 20px 0px 0px -10px rgba(255,255,255,.7), -20px 0px 0px -10px rgba(255,255,255,.7), 0px 0px 0px 5px var(--btn-orange);
+}
+.dButton-032-violet{
+  color:  var(--btn-violet); 
+  box-shadow: 0px 20px 0px -10px rgba(255,255,255,1), 0px -20px 0px -10px rgba(255,255,255,1), 20px 0px 0px -10px rgba(255,255,255,1), -20px 0px 0px -10px rgba(255,255,255,1), 0px 0px 0px 5px var(--btn-violet);   
+}
+.dButton-032-violet:hover{
+  color: var(--btn-violet-700);
+  box-shadow: 0px 20px 0px -10px rgba(255,255,255,.7), 0px -20px 0px -10px rgba(255,255,255,.7), 20px 0px 0px -10px rgba(255,255,255,.7), -20px 0px 0px -10px rgba(255,255,255,.7), 0px 0px 0px 5px var(--btn-violet);
+}
+
+/* ----------dButton-033----------- */
+.dButton-033{
+  width: 150px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border:none;
+  background-color:white;
+  transition: all .4s ease;
+  transform: skewX(-20deg);
+}
+.dButton-033:hover{
+ cursor: pointer;
+ transform: skewX(0deg);
+}
+.dButton-033-blue{
+  color:  var(--btn-blue); 
+  border-top:2px solid var(--btn-blue);
+  border-bottom:4px solid var(--btn-blue);
+}
+.dButton-033-red{
+  color:  var(--btn-red); 
+  border-top:2px solid var(--btn-red);
+  border-bottom:4px solid var(--btn-red);
+}
+.dButton-033-green{
+  color:  var(--btn-green); 
+  border-top:2px solid var(--btn-green);
+  border-bottom:4px solid var(--btn-green);
+}
+.dButton-033-orange{
+  color:  var(--btn-orange); 
+  border-top:2px solid var(--btn-orange);
+  border-bottom:4px solid var(--btn-orange);
+}
+.dButton-033-violet{
+  color:  var(--btn-violet); 
+  border-top:2px solid var(--btn-violet);
+  border-bottom:4px solid var(--btn-violet);
+}
+
+/* ----------dButton-034----------- */
+.dButton-034{
+  width: 100px;
+  height: 100px;
+  margin: 10px 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 5px solid #ddd;
+  color: white;
+  transition: all .4s ease;
+  position: relative;
+}
+.dButton-034::before{
+  content:"";
+  display:inline-block;
+  position: absolute;
+  background-color:var(--before-content);
+  z-index:-1 !important;
+  border-radius:50%;
+  top:0;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+}
+.dButton-034:hover::before{
+ cursor: pointer;
+ animation: spreadShadow 1s ease infinite;  
+}
+.dButton-034:hover{
+
+  cursor: pointer;
+  text-shadow:0px 4px 4px #595959;
+}
+@keyframes spreadShadow {
+  0%{
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%; 
+    opacity: 1;
+  }
+
+  100% {  
+    top: -20%;
+    left: -20%;
+    height: 140%;
+    width: 140%;
+    opacity: 0;
+  }
+}
+.dButton-034-blue{
+  background-color: var(--btn-blue);
+  --before-content:var(--btn-blue-450);
+}
+.dButton-034-red{
+  background-color: var(--btn-red);
+  --before-content:var(--btn-red-450);
+}
+.dButton-034-green{
+  background-color: var(--btn-green);
+  --before-content:var(--btn-green-450);
+}
+.dButton-034-violet{
+  background-color: var(--btn-violet);
+  --before-content:var(--btn-violet-450);
+}
+.dButton-034-orange{
+  background-color: var(--btn-orange);
+  --before-content:var(--btn-orange-450);
+}
+/* ----------dButton-035----------- */
+.btnperspective{
+  perspective: 400px;
+}
+.dButton-035{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border:1px solid #cccc;
+  color:white;
+  transition: all .4s ease;
+  clip-path: polygon(5% 1%, 95% 0, 100% 100%, 0% 100%); 
+}
+.dButton-035:hover{
+  cursor: pointer;
+  transform: rotateY(-15deg); 
+}
+.dButton-035-blue{ 
+  background: linear-gradient(to right ,var(--btn-blue-700),var(--btn-blue-450));
+}
+.dButton-035-red{ 
+  background: linear-gradient(to right ,var(--btn-red-700),var(--btn-red-450));
+}
+.dButton-035-green{ 
+  background: linear-gradient(to right ,var(--btn-green-700),var(--btn-green-450));
+}
+.dButton-035-orange{ 
+  background: linear-gradient(to right ,var(--btn-orange-700),var(--btn-orange-450));
+}
+.dButton-035-violet{ 
+  background: linear-gradient(to right ,var(--btn-violet-700),var(--btn-violet-450));
+}
+
+/* ----------dButton-036----------- */
+.dButton-036{
+  width: 150px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border:none;
+  color:white;
+  border-radius: 5px;
+  text-shadow:  0px 3px 7px #000;
+  transition: all .4s ease;
+  --btn-percent-val:0%;
+  
+}
+.dButton-036:hover{
+  cursor: pointer;
+  text-shadow: 0px 2px 0px #000c;
+  animation: changeLinGrad .3s ease forwards;  
+}
+@keyframes changeLinGrad {
+ 
+  0%{    --btn-percent-val:0%;}
+  10%{   --btn-percent-val:10%;}
+  20%{   --btn-percent-val:20%;}
+  30%{   --btn-percent-val:30%;}
+  40%{   --btn-percent-val:40%;}
+  50%{   --btn-percent-val:50%;}
+  60%{   --btn-percent-val:60%;}
+  70%{   --btn-percent-val:70%;}
+  80%{   --btn-percent-val:80%;}
+  90%{   --btn-percent-val:90%; }
+  100%{   --btn-percent-val:100%; }
+ 
+}
+.dButton-036-blue{ 
+   background: linear-gradient(var(--btn-blue), var(--btn-blue-450) var(--btn-percent-val), transparent 100%);;
+}
+.dButton-036-red{ 
+  background: linear-gradient(var(--btn-red), var(--btn-red-450) var(--btn-percent-val), transparent 100%);;
+}
+.dButton-036-green{ 
+  background: linear-gradient(var(--btn-green), var(--btn-green-450) var(--btn-percent-val), transparent 100%);;
+}
+.dButton-036-orange{ 
+  background: linear-gradient(var(--btn-orange), var(--btn-orange-450) var(--btn-percent-val), transparent 100%);;
+}
+.dButton-036-violet{ 
+  background: linear-gradient(var(--btn-violet), var(--btn-violet-450) var(--btn-percent-val), transparent 100%);;
+}
+
+/* ----------dButton-037----------- */
+
+.dButton-037{
+  width: 100px;
+  height: 100px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:50%;
+  box-shadow: 3px 5px 10px 1px #b9b9b9;
+    --btn-per-val:0%;
+    --btn-per-val2:0%;
+}
+.dButton-037:hover{
+  cursor: pointer;
+  color:white;
+  box-shadow:  0px 3px 6px 1px #b9b9b9;
+  animation: changeGradBack .3s ease forwards;  
+}
+@keyframes changeGradBack {
+ 
+  0%{    --btn-per-val:0%; --btn-per-val2:0%;}
+  10%{   --btn-per-val:10%; --btn-per-val2:11%;}
+  20%{   --btn-per-val:20%; --btn-per-val2:22%;}
+  30%{   --btn-per-val:30%; --btn-per-val2:33%;}
+  40%{   --btn-per-val:40%; --btn-per-val2:35%;}
+  50%{   --btn-per-val:50%; --btn-per-val2:55%;}
+  60%{   --btn-per-val:60%; --btn-per-val2:65%;}
+  70%{   --btn-per-val:70%; --btn-per-val2:75%;}
+  80%{   --btn-per-val:80%; --btn-per-val2:85%;}
+  90%{   --btn-per-val:90%; --btn-per-val2:95%; }
+  100%{   --btn-per-val:100%; --btn-per-val2:100%; }     
+ 
+}
+.dButton-037-blue{ 
+  color:var(--btn-blue);
+  border:5px solid var(--btn-blue-450);
+  background: radial-gradient(circle,var(--btn-blue) 0%, var(--btn-blue-700) var(--btn-per-val)  , transparent   var(--btn-per-val2) );
+}
+.dButton-037-red{ 
+  color:var(--btn-red);
+  border:5px solid var(--btn-red-450);
+  background: radial-gradient(circle,var(--btn-red) 0%, var(--btn-red-700) var(--btn-per-val)  , transparent   var(--btn-per-val2) );
+}
+.dButton-037-green{ 
+  color:var(--btn-green);
+  border:5px solid var(--btn-green-450);
+  background: radial-gradient(circle,var(--btn-green) 0%, var(--btn-green-700) var(--btn-per-val)  , transparent   var(--btn-per-val2) );
+}
+.dButton-037-violet{ 
+  color:var(--btn-violet);
+  border:5px solid var(--btn-violet-450);
+  background: radial-gradient(circle,var(--btn-violet) 0%, var(--btn-violet-700) var(--btn-per-val)  , transparent   var(--btn-per-val2) );
+}
+.dButton-037-orange{ 
+  color:var(--btn-orange);
+  border:5px solid var(--btn-orange-450);
+  background: radial-gradient(circle,var(--btn-orange) 0%, var(--btn-orange-700) var(--btn-per-val)  , transparent   var(--btn-per-val2) );
+}
+
+/* ----------dButton-038----------- */
+.dButton-038{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:5px;
+  box-shadow: 0px 5px 10px 0px #b9b9b9;
+  --btn-px-val:0px;
+}
+.dButton-038:hover{
+  cursor: pointer;
+  color:white;
+  box-shadow:  0px 3px 6px 1px #b9b9b9;
+  animation: GradBackSize .7s ease forwards;  
+}
+@keyframes GradBackSize {
+  0%{    --btn-px-val:0px;}
+  10%{   --btn-px-val:2px;}
+  20%{   --btn-px-val:4px;}
+  30%{   --btn-px-val:6px;}
+  40%{   --btn-px-val:8px;}
+  50%{   --btn-px-val:10px;}
+  60%{   --btn-px-val:12px;}
+  70%{   --btn-px-val:14px;}
+  80%{   --btn-px-val:16px;}
+  90%{   --btn-px-val:18px;}
+  100%{   --btn-px-val:20px;}     
+}
+.dButton-038-blue{ 
+  color:var(--btn-blue);
+  background-color: var(--btn-blue-100);
+  border:3px solid var(--btn-blue-450);
+  background-image: repeating-linear-gradient(0deg,  var(--btn-blue) 0, var(--btn-blue) var(--btn-px-val), transparent 0, transparent 50%);
+  background-size: 20px 20px;
+}
+.dButton-038-red{ 
+  color:var(--btn-red);
+  background-color: var(--btn-red-100);
+  border:3px solid var(--btn-red-450);
+  background-image: repeating-linear-gradient(0deg,  var(--btn-red) 0, var(--btn-red) var(--btn-px-val), transparent 0, transparent 50%);
+  background-size: 20px 20px;
+}
+.dButton-038-green{ 
+  color:var(--btn-green);
+  background-color: var(--btn-green-100);
+  border:3px solid var(--btn-green-450);
+  background-image: repeating-linear-gradient(0deg,  var(--btn-green) 0, var(--btn-green) var(--btn-px-val), transparent 0, transparent 50%);
+  background-size: 20px 20px;
+}
+.dButton-038-orange{ 
+  color:var(--btn-orange);
+  background-color: var(--btn-orange-100);
+  border:3px solid var(--btn-orange-450);
+  background-image: repeating-linear-gradient(0deg,  var(--btn-orange) 0, var(--btn-orange) var(--btn-px-val), transparent 0, transparent 50%);
+  background-size: 20px 20px;
+}
+.dButton-038-violet{ 
+  color:var(--btn-violet);
+  background-color: var(--btn-violet-100);
+  border:3px solid var(--btn-violet-450);
+  background-image: repeating-linear-gradient(0deg,  var(--btn-violet) 0, var(--btn-violet) var(--btn-px-val), transparent 0, transparent 50%);
+  background-size: 20px 20px;
+}
+
+/* ----------dButton-039----------- */
+.dButton-039{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  background-color:white;
+  border: none;
+  transition: all .3s ease-in-out;
+}
+.dButton-039:hover{
+  cursor: pointer;
+  text-shadow: 0px 3px 5px #aeaeae;
+  border-top-width: 0px;
+  border-bottom-width: 10px;
+}
+ .dButton-039-blue{ 
+  color:var(--btn-blue);
+  border-top:3px solid var(--btn-blue-450);
+  border-bottom: 2px double var(--btn-blue-450);
+}
+.dButton-039-red{ 
+  color:var(--btn-red);
+  border-top:3px solid var(--btn-red-450);
+  border-bottom: 2px double var(--btn-red-450);
+}
+.dButton-039-orange{ 
+  color:var(--btn-orange);
+  border-top:3px solid var(--btn-orange-450);
+  border-bottom: 2px double var(--btn-orange-450);
+}
+.dButton-039-green{ 
+  color:var(--btn-green);
+  border-top:3px solid var(--btn-green-450);
+  border-bottom: 2px double var(--btn-green-450);
+}
+.dButton-039-violet{ 
+  color:var(--btn-violet);
+  border-top:3px solid var(--btn-violet-450);
+  border-bottom: 2px double var(--btn-violet-450);
+}
+
+/* ----------dButton-040----------- */
+.dButton-040{
+  width: 100px;
+  height: 100px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:50%;
+  color:white;
+  animation: vibration 5s ease-in-out 0s infinite normal forwards;
+}
+.dButton-040:hover{
+  cursor: pointer;
+  box-shadow:  0px 3px 10px 0px #b9b9b9;
+  animation-name: none;
+}
+@keyframes vibration {
+  0%, 100% { transform: translateY(0); } 
+  10%, 30%, 50%, 70% { transform: translateY(-8px); } 
+  20%, 40%, 60% { transform: translateY(8px); } 
+  80% { transform: translateY(6.4px); } 
+  90% { transform: translateY(-6.4px);}  
+}
+.dButton-040-blue{ 
+  animation-delay: 3s;
+  border:4px solid var(--btn-blue-450);
+  background: radial-gradient(circle,var(--btn-blue-600) 0%, var(--btn-blue-700) 100% );
+}
+.dButton-040-red{ 
+  animation-delay: 0s;
+  border:4px solid var(--btn-red-450);
+  background: radial-gradient(circle,var(--btn-red-600) 0%, var(--btn-red-700) 100% );
+}
+.dButton-040-green{ 
+  animation-delay: 2s;
+  border:4px solid var(--btn-green-450);
+  background: radial-gradient(circle,var(--btn-green-600) 0%, var(--btn-green-700) 100% );
+} 
+.dButton-040-orange{ 
+  animation-delay: 2s;
+  border:4px solid var(--btn-orange-450);
+  background: radial-gradient(circle,var(--btn-orange-600) 0%, var(--btn-orange-700) 100% );
+} 
+.dButton-040-violet{ 
+  animation-delay: 1s;
+  border:4px solid var(--btn-violet-450);
+  background: radial-gradient(circle,var(--btn-violet-600) 0%, var(--btn-violet-700) 100% );
+}
+
+/* ----------dButton-041----------- */
+.dButton-041{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:5px;
+  color:white;
+  position:relative;
+  border:none;
+  background-color:transparent;
+  overflow: hidden;
+  transition: all .4s ease-in-out;
+ }
+.dButton-041::before{
+  content:"";
+  display:inline-block;
+  position: absolute;
+   z-index:-2 !important;
+  border-radius:0%;
+  top:-370%;
+  left: 20%;
+  height: 800%;
+  width: 70%;
+  animation: rotateFlash 5s ease-in-out 0s infinite  ;
+}
+@keyframes rotateFlash {
+   0%{ transform: rotate(0deg);}
+   100%{ transform: rotate(360deg);}
+}
+.dButton-041::after{
+  content:"";
+  display:inline-block;
+  position: absolute;
+  z-index:-1 !important;
+  border-radius:5px;
+  top:6%;
+  left: 2%;
+  height: 88%;
+  width: 96%;
+  transition: all .4s ease-in-out;
+}
+.dButton-041:hover{
+  cursor: pointer;
+  text-shadow: 0px 3px 1px #535252;
+}
+.dButton-041:hover::before{
+  animation-name: none;
+}
+.dButton-041-blue::before{ 
+  background:linear-gradient(to right, transparent 0%,var(--btn-blue-450) 50%,transparent 100%); 
+}
+.dButton-041-blue::after{ 
+  background-color:var(--btn-blue);
+}
+.dButton-041-blue:hover::after{ 
+  background-color:var(--btn-blue-600);
+}
+.dButton-041-red::before{ 
+  background:linear-gradient(to right, transparent 0%,var(--btn-red-450) 50%,transparent 100%); 
+}
+.dButton-041-red::after{ 
+  background-color:var(--btn-red);
+}
+.dButton-041-red:hover::after{ 
+  background-color:var(--btn-red-600);
+}
+.dButton-041-green::before{ 
+  background:linear-gradient(to right, transparent 0%,var(--btn-green-450) 50%,transparent 100%); 
+}
+.dButton-041-green::after{ 
+  background-color:var(--btn-green);
+}
+.dButton-041-green:hover::after{ 
+  background-color:var(--btn-green-600);
+}
+.dButton-041-orange::before{ 
+  background:linear-gradient(to right, transparent 0%,var(--btn-orange-450) 50%,transparent 100%); 
+}
+.dButton-041-orange::after{ 
+  background-color:var(--btn-orange);
+}
+.dButton-041-orange:hover::after{ 
+  background-color:var(--btn-orange-600);
+}
+.dButton-041-violet::before{ 
+  background:linear-gradient(to right, transparent 0%,var(--btn-violet-450) 50%,transparent 100%); 
+}
+.dButton-041-violet::after{ 
+  background-color:var(--btn-violet);
+}
+.dButton-041-violet:hover::after{ 
+  background-color:var(--btn-violet-600);
+}
+/* ----------dButton-042----------- */
+.dButton-042{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:50px;
+  color:white;
+  display: grid;
+  grid-template-columns: 20% 80%;  
+  align-items: center;
+  transition: all .2s ease-in-out;
+ }
+ .dButton-042-rtl{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:50px;
+  color:white;
+  direction: rtl;
+  display: grid;
+  grid-template-columns: 20% 80%;  
+  align-items: center;
+  transition: all .2s ease-in-out;
+ }
+ .dButton-042 .icon,.dButton-042-rtl .icon{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background-color:rgba(255,255,255,.3);;
+    align-content: center;
+    font-weight: bold;
+    font-size: 14px;
+ }
+ .dButton-042 .text,.dButton-042-rtl .text{
+   text-align: center;
+}
+ .dButton-042:hover,.dButton-042-rtl:hover{
+  cursor: pointer;
+  text-shadow: 0px 3px 5px #aeaeae;
+  transform: scale(0.98);
+  box-shadow: 0px 0px 0px 4px #e3e3e3;
+}
+ .dButton-042-blue{ 
+  background-color:var(--btn-blue);
+  border:3px solid var(--btn-blue-450);
+}
+.dButton-042-red{ 
+  background-color:var(--btn-red);
+  border:3px solid var(--btn-red-450);
+}
+.dButton-042-green{ 
+  background-color:var(--btn-green);
+  border:3px solid var(--btn-green-450);
+}
+.dButton-042-orange{ 
+  background-color:var(--btn-orange);
+  border:3px solid var(--btn-orange-450);
+}
+.dButton-042-violet{ 
+  background-color:var(--btn-violet);
+  border:3px solid var(--btn-violet-450);
+}
+/* ----------dButton-043----------- */
+.btnperpec{
+  perspective: 400px;
+}
+.dButton-043{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:5px;
+  color:white;
+  display: grid;
+  grid-template-columns: 20% 80%;  
+  align-items: center;
+  transition: all .2s ease-in-out;
+ }
+ .dButton-043-rtl{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:5px;
+  direction: rtl;
+  color:white;
+  display: grid;
+  grid-template-columns: 20% 80%;  
+  align-items: center;
+  transition: all .2s ease-in-out;
+ }
+ .dButton-043 .icon,.dButton-043-rtl .icon{
+  width: 40px;
+  height: 40px;
+  border-radius:5px;
+  background-color:rgba(255,255,255,.3);;
+  align-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+.dButton-043 .text,.dButton-043-rtl .text {
+ text-align: center;
+}
+.dButton-043:hover{
+  cursor: pointer;
+  text-shadow: 0px 3px 5px #4a4a4a;
+  transform: rotateY(7deg);
+  box-shadow: -2px 0px 0px 2px #cecece;
+  filter: brightness(1.1);
+}
+.dButton-043-rtl:hover{
+  cursor: pointer;
+  text-shadow: 0px 3px 5px #4a4a4a;
+  transform: rotateY(-7deg);
+  box-shadow: 2px 0px 0px 2px #cecece;
+  filter: brightness(1.1);
+}
+.dButton-043-blue{ 
+  background-color:var(--btn-blue);
+  border:3px solid var(--btn-blue-450);
+}
+.dButton-043-red{ 
+  background-color:var(--btn-red);
+  border:3px solid var(--btn-red-450);
+}
+.dButton-043-green{ 
+  background-color:var(--btn-green);
+  border:3px solid var(--btn-green-450);
+}
+.dButton-043-orange{ 
+  background-color:var(--btn-orange);
+  border:3px solid var(--btn-orange-450);
+}
+.dButton-043-violet{ 
+  background-color:var(--btn-violet);
+  border:3px solid var(--btn-violet-450);
+}
+/* ----------dButton-044----------- */
+.dButton-044{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:5px;
+  color:white;
+  display: grid;
+  grid-template-columns: 20% 80%;  
+  align-items: center;
+  background-color:#868686;
+  background: linear-gradient(to bottom, #aaa 40% ,#717171);;
+  transition: all .2s ease-in-out;
+ }
+ .dButton-044-rtl{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:5px;
+  color:white;
+  direction: rtl;
+  display: grid;
+  grid-template-columns: 20% 80%;  
+  align-items: center;
+  background-color:#868686;
+  background: linear-gradient(to bottom, #aaa 40% ,#717171);;
+  transition: all .2s ease-in-out;
+ }
+ .dButton-044 .icon,  .dButton-044-rtl .icon{
+  width: 40px;
+  height: 40px;
+  border-radius:5px;
+  align-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+.dButton-044 .text,.dButton-044-rtl .text{
+  text-align: center;
+}
+.dButton-044:hover,.dButton-044-rtl:hover{
+  cursor: pointer;
+  text-shadow: 0px 3px 5px #aeaeae;
+  border-bottom-width:0px;
+  border-top-width:5px;
+  filter: brightness(1.08);
+}
+.dButton-044-blue{ 
+  border:none;
+  border-bottom:4px solid var(--btn-blue-450);
+  border-top:0px solid var(--btn-blue-450);
+}
+.dButton-044-blue .icon{
+  background-color:var(--btn-blue);
+}
+.dButton-044-red{ 
+  border:none;
+  border-bottom:4px solid var(--btn-red-450);
+  border-top:0px solid var(--btn-red-450);
+}
+.dButton-044-red .icon{
+  background-color:var(--btn-red);
+}
+.dButton-044-green{ 
+  border:none;
+  border-bottom:4px solid var(--btn-green-450);
+  border-top:0px solid var(--btn-green-450);
+}
+.dButton-044-green .icon{
+  background-color:var(--btn-green);
+}
+.dButton-044-orange{ 
+  border:none;
+  border-bottom:4px solid var(--btn-orange-450);
+  border-top:0px solid var(--btn-orange-450);
+}
+.dButton-044-orange .icon{
+  background-color:var(--btn-orange);
+}
+.dButton-044-violet{ 
+  border:none;
+  border-bottom:4px solid var(--btn-violet-450);
+  border-top:0px solid var(--btn-violet-450);
+}
+.dButton-044-violet .icon{
+  background-color:var(--btn-violet);
+}
+/* ----------dButton-045----------- */
+.dButton-045{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:5px;
+  color:white;
+  position: relative;
+  display: grid;
+  grid-template-columns: 20% 80%;  
+  align-items: center;
+  transition: all .2s ease-in-out;
+  --btn-grs-val:65%;
+ }
+ .dButton-045 .icon{
+  width: 40px;
+  height: 40px;
+  border-radius:5px;
+  align-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.dButton-045 .text {
+  text-align: center;
+}
+.dButton-045:hover{
+  cursor: pointer;
+  text-shadow: 0px 3px 1px #626262;
+  animation: GradSkewSizer .3s ease forwards;  
+  box-shadow:0px 0px 0px 2px #dfdfdf;
+}
+@keyframes GradSkewSizer {
+  0%{    --btn-grs-val:65%;}
+  10%{   --btn-grs-val:70%;}
+  20%{   --btn-grs-val:75%;}
+  30%{   --btn-grs-val:80%;}
+  40%{   --btn-grs-val:85%;}
+  50%{   --btn-grs-val:90%;}
+  60%{   --btn-grs-val:95%;}
+  70%{   --btn-grs-val:100%;}
+  80%,90%,100%{   --btn-grs-val:110%;} 
+}
+.dButton-045-blue{ 
+  background: linear-gradient(315deg, var(--btn-blue) var(--btn-grs-val), white var(--btn-grs-val),white 100%);
+  border:3px solid var(--btn-blue-450);
+}
+.dButton-045-blue .icon{
+  color:var(--btn-blue);
+}
+.dButton-045-blue:hover .icon{
+  color:white;
+}
+.dButton-045-red{ 
+  background: linear-gradient(315deg, var(--btn-red) var(--btn-grs-val), white var(--btn-grs-val),white 100%);
+  border:3px solid var(--btn-red-450);
+}
+.dButton-045-red .icon{
+  color:var(--btn-red);
+}
+.dButton-045-red:hover .icon{
+  color:white;
+}
+.dButton-045-green{ 
+  background: linear-gradient(315deg, var(--btn-green) var(--btn-grs-val), white var(--btn-grs-val),white 100%);
+  border:3px solid var(--btn-green-450);
+}
+.dButton-045-green .icon{
+  color:var(--btn-green);
+}
+.dButton-045-green:hover .icon{
+  color:white;
+}
+.dButton-045-orange{ 
+  background: linear-gradient(315deg, var(--btn-orange) var(--btn-grs-val), white var(--btn-grs-val),white 100%);
+  border:3px solid var(--btn-orange-450);
+}
+.dButton-045-orange .icon{
+  color:var(--btn-orange);
+}
+.dButton-045-orange:hover .icon{
+  color:white;
+}
+.dButton-045-violet{ 
+  background: linear-gradient(315deg, var(--btn-violet) var(--btn-grs-val), white var(--btn-grs-val),white 100%);
+  border:3px solid var(--btn-violet-450);
+}
+.dButton-045-violet .icon{
+  color:var(--btn-violet);
+}
+.dButton-045-violet:hover .icon{
+  color:white;
+}
+
+/* ----------dButton-046----------- */
+.dButton-046{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:5px;
+  color:white;
+  position: relative;
+  display: grid;
+  grid-template-columns: 20% 80%;  
+  align-items: center;
+  transition: all .2s ease-in-out;
+   --btn-grs-perc:75%;
+  background: linear-gradient(to left, var(--btn-grs-color) var(--btn-grs-perc), white var(--btn-grs-perc),white 100%);
+ }
+ .dButton-046-rtl{
+  width: 200px;
+  height: 50px;
+  margin:10px 20px;
+  font-weight: bold;
+  border-radius:5px;
+  color:white;
+  position: relative;
+  direction: rtl;
+  display: grid;
+  grid-template-columns: 20% 80%;  
+  align-items: center;
+  transition: all .2s ease-in-out;
+   --btn-grs-perc:75%;
+  background: linear-gradient(to right, var(--btn-grs-color) var(--btn-grs-perc), white var(--btn-grs-perc),white 100%);
+ }
+ .dButton-046 .icon,.dButton-046-rtl .icon{
+  width: 40px;
+  height: 40px;
+  border-radius:5px;
+  align-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.dButton-046 .text,.dButton-046-rtl .text {
+  text-align: center;
+}
+.dButton-046:hover,.dButton-046-rtl:hover{
+  cursor: pointer;
+  animation: GradParamChanger .3s ease forwards;  
+  box-shadow:0px 2px 0px 2px #dfdfdf;
+}
+@keyframes GradParamChanger {
+  0%{    --btn-grs-perc:00%;}
+  10%{   --btn-grs-perc:10%;}
+  20%{   --btn-grs-perc:20%;}
+  30%{   --btn-grs-perc:30%;}
+  40%{   --btn-grs-perc:40%;}
+  50%{   --btn-grs-perc:50%;}
+  60%{   --btn-grs-perc:60%;}
+  70%{   --btn-grs-perc:70%;}
+  80%,100%{   --btn-grs-perc:75%;} 
+}
+.dButton-046-blue{ 
+  --btn-grs-perc:75%;
+  --btn-grs-color:var(--btn-blue);
+  border:3px solid var(--btn-blue-450);
+}
+.dButton-046-blue:hover{ 
+   --btn-grs-color:var(--btn-blue-600);
+}
+.dButton-046-blue .icon{
+  color:var(--btn-blue);
+}
+.dButton-046-red{ 
+  --btn-grs-perc:75%;
+  --btn-grs-color:var(--btn-red);
+  border:3px solid var(--btn-red-450);
+}
+.dButton-046-red:hover{ 
+   --btn-grs-color:var(--btn-red-600);
+}
+.dButton-046-red .icon{
+  color:var(--btn-red);
+}
+.dButton-046-green{ 
+  --btn-grs-perc:75%;
+  --btn-grs-color:var(--btn-green);
+  border:3px solid var(--btn-green-450);
+}
+.dButton-046-green:hover{ 
+   --btn-grs-color:var(--btn-green-600);
+}
+.dButton-046-green .icon{
+  color:var(--btn-green);
+}
+.dButton-046-orange{ 
+  --btn-grs-perc:75%;
+  --btn-grs-color:var(--btn-orange);
+  border:3px solid var(--btn-orange-450);
+}
+.dButton-046-orange:hover{ 
+   --btn-grs-color:var(--btn-orange-600);
+}
+.dButton-046-orange .icon{
+  color:var(--btn-orange);
+}
+.dButton-046-violet{ 
+  --btn-grs-perc:75%;
+  --btn-grs-color:var(--btn-violet);
+  border:3px solid var(--btn-violet-450);
+}
+.dButton-046-violet:hover{ 
+   --btn-grs-color:var(--btn-violet-600);
+}
+.dButton-046-violet .icon{
+  color:var(--btn-violet);
+}
+
