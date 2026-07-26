@@ -69,7 +69,7 @@ Or download the ZIP file and include the CSS DihokButtons.css in your project.
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-044-red   
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-044-violet  
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-044-orange      
-➰to change direction of button, replace  "dButton-044" with "dButton-044-rtl"  
+➰to change direction of button, replace  "dButton-044" with "dButton-044-rtl"
 📌📌📌<h3> Open index.html and we have listed all buttons and how to add each one</h3>📌📌📌
 
 ## :art: Customization
