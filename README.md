@@ -49,10 +49,10 @@ Or download the ZIP file and include the CSS DihokButtons.css in your project.
     
 
 🔴to change color, just replace class "dButton-003-blue" with one the following
-&#128311;"dButton-003-green" 
-&#128311;"dButton-003-red" 
-&#128311;"dButton-003-violet"
-&#128311;"dButton-003-orange"
+&#128311;"dButton-003-green"   
+&#128311;"dButton-003-red"   
+&#128311;"dButton-003-violet"  
+&#128311;"dButton-003-orange"  
 
 Then use any button class:
 
