@@ -1,8 +1,8 @@
-# DihokButtons
+# ⚡DihokButtons
 
 A collection of 46 modern button components built entirely with Pure CSS.
+DihokButtons is a lightweight, zero-dependency CSS button library designed to save you hours of styling time. Whether you're building a quick prototype or a production-grade web application, these buttons offer a professional, modern look right out of the box.  
 
-DihokButtons is a lightweight CSS button library that provides beautiful, responsive, and customizable button styles without JavaScript, frameworks, or external dependencies. Simply copy the HTML and CSS into your project and start building.
 
 ## :sparkles: Features
 
@@ -126,6 +126,10 @@ DihokButtons/
 
 - HTML5
 - CSS3
+   
+## 🎯  Purpose
+
+I built this to have a go-to set of buttons that look great without relying on heavy frameworks like Bootstrap or Tailwind. It's perfect for portfolio sites, dashboards, or any side project where you want clean UI without the bloat.  
 
 ## 🤝 Contributing
 
