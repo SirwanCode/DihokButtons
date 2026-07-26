@@ -51,7 +51,7 @@ Or download the ZIP file and include the CSS DihokButtons.css in your project.
 🔴to change color, just replace class "dButton-003-blue" with one the following  
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-green   
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-red   
-&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-violet"  
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-violet  
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-orange  
 
 ## :art: Customization
@@ -65,7 +65,7 @@ You can easily customize:
 - Shadows
 - Hover effects
 - Animations
-- Transition speed
+- Transition speed  
   ⭕just open DihokButtons.css and find the button and change properties  
 ## :file_folder: Project Structure
 
