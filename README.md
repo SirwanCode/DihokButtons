@@ -42,18 +42,18 @@ Or download the ZIP file and include the CSS DihokButtons.css in your project.
 ## :book: Usage
 
  
- 🔹sample usage(for button-003)
+✳ sample usage(for button-003)
  ```html
  <button class="dButton-003 dButton-003-red">Button</button>
 ```
     
 
-🔴to change color, just replace class "dButton-003-blue" with one the following  
+➰to change color, just replace class "dButton-003-blue" with one the following  
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-green   
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-red   
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-violet  
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-orange    
- 🔹sample usage(for button-045)
+✳ sample usage(for button-045)
  ```html
   <button class="dButton-045 dButton-045-blue">
      <span class="icon">&#128386;</span>
@@ -62,13 +62,13 @@ Or download the ZIP file and include the CSS DihokButtons.css in your project.
 ```
     
 
-🔴to change color, just replace class "dButton-045-blue" with one the following  
+➰to change color, just replace class "dButton-045-blue" with one the following  
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-045-green   
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-045-red   
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-045-violet  
 &nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-045-orange    
 
-📌📌 Open index.html and we have listed all buttons and how to add each one
+📌📌📌<h3> Open index.html and we have listed all buttons and how to add each one</h3>📌📌📌
 
 ## :art: Customization
 
