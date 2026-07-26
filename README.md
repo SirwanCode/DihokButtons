@@ -10,17 +10,9 @@ DihokButtons is a lightweight CSS button library that provides beautiful, respon
 - Built with Pure CSS
 - No JavaScript required
 - No frameworks or libraries
-- Responsive and lightweight
 - Easy to customize
 - Modern hover and transition effects
-- Cross-browser compatible
 - Ready to use
-
-## :rocket: Live Demo
-
-Coming soon...
-
-> You can enable GitHub Pages later and add the demo link here.
 
 ## 📸 Preview
 
@@ -109,11 +101,6 @@ If you'd like to improve DihokButtons or add new button styles:
 ## :star: Support
 
 If you like this project, consider giving it a star on GitHub. Your support helps the project grow and encourages future updates.
+ 
 
-## :page_facing_up: License
-
-This project is licensed under the MIT License.
-
-## :man::computer: Author
-
-Developed with :heart: by YOUR_NAME.
+ 
