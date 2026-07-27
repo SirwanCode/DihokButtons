@@ -148,7 +148,7 @@ If you like this project, consider giving it a star on GitHub. Your support help
 
  ---
 
-# 🇹🇯 کوردی (سۆرانی)
+<h1 align="right" dir="rtl">🇹🇯 کوردی (سۆرانی)</h1>
 
 ## :book: دەربارەی پڕۆژە
 
@@ -167,10 +167,14 @@ DihokButtons کتێبخانەی دوگمەکانی CSS ە کە کێشی سووک
 ## :package: دامەزراندن
 
 کۆگاکە کلۆن بکە:
+  
 فەرمانی bash
+  
 git clone https://github.com/SirwanCode/dihokbuttons.git
+  
 یان فایلە ZIP دابەزێنە، و پاشان  DihokButtons.css لە پرۆژەکەتدا دابنێ.
 
+  
  ```html
  <link rel="stylesheet" href="css/DihokButtons.css">
 ```
@@ -209,7 +213,7 @@ git clone https://github.com/SirwanCode/dihokbuttons.git
 <p dir="rtl" align="right">➰بۆ گۆڕینی ئاراستەی دوگمەکە،  "dButton-044"  بگۆڕە بە   "dButton-044-rtl"  
 </p>
   
-<h4>📌📌📌  فایل index.html بکەرەوە و هەموو دوگمەکان و چۆنیەتی زیادکردنی هەریەکەیانمان خستۆتە ڕوو📌📌📌</h4>
+<h3>📌📌📌  فایل index.html بکەرەوە و هەموو دوگمەکان و چۆنیەتی زیادکردنی هەریەکەیانمان خستۆتە ڕوو📌📌📌</h3>
 
 
 
@@ -253,8 +257,9 @@ git clone https://github.com/SirwanCode/dihokbuttons.git
    ```
 
 ## :file_folder: پێکهاتەی پڕۆژە
-
-
+    
+  
+  
 ```
 DihokButtons/
 ├── css/
@@ -276,7 +281,7 @@ DihokButtons/
    
 ## 🎯  مەبەست 
 
-من ئەمەم دروست کردووە بۆ ئەوەی کۆمەڵێک دوگمەی   هەبێت کە زۆر جوان دەردەکەون بەبێ ئەوەی پشت بە چوارچێوەی قورس وەک Bootstrap یان Tailwind ببەستم. زۆر گونجاوە بۆ سایتەکانی پۆرتفۆلیۆ، داشبۆرد، یان هەر پڕۆژەیەکی لاوەکی کە UI پاکت دەوێت      
+من ئەمەم دروست کردووە بۆ ئەوەی کۆمەڵێک دوگمەی   هەبێت کە زۆر جوان دەردەکەون بەبێ ئەوەی پشت بە چوارچێوەی قورس وەک Bootstrap یان Tailwind ببەستم. زۆر گونجاوە بۆ سایتەکانی پۆرتفۆلیۆ، داشبۆرد، یان هەر پڕۆژەیەکی  کە UI پاکت دەوێت      
 
   
 ## 🤝 بەشداریکردن
