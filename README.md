@@ -145,6 +145,163 @@ If you'd like to improve DihokButtons or add new button styles:
 ## :star: Support
 
 If you like this project, consider giving it a star on GitHub. Your support helps the project grow and encourages future updates.
+
+ ---
+
+# 🇹🇯 کوردی (سۆرانی)
+
+## :book: دەربارەی پڕۆژە
+
+کۆمەڵێک لە ٤٦ پێکهاتەی دوگمەی مۆدێرن کە بە تەواوی بە Pure CSS دروستکراون.
+DihokButtons کتێبخانەی دوگمەکانی CSS ە کە کێشی سووکە و وابەستەیی سفرە و بۆ ئەوە دروستکراوە کە چەندین کاتژمێر لە کاتی ستایلکردنت بۆ پاشەکەوت بکات. جا تۆ پرۆتۆتایپێکی خێرا دروست دەکەیت یان بەرنامەیەکی وێبی پلە بەرهەمهێنان، ئەم دوگمانە دیمەنێکی پیشەیی و مۆدێرن پێشکەش دەکەن 
+ 
+## :sparkles: تایبتمەندیەکان
+ ✴٤٦ دیزاینی دوگمەی ناوازە   
+✴بە   CSS دروستکراوە   
+✴پێویست بە جاڤاسکڕێپت ناکات   
+✴هیچ چوارچێوەیەک و کتێبخانەیەکی نایەوت  
+✴ئاسانە بۆ خۆکارکردن   
+✴افکتەکانی هۆڤەر و ترانزیشن مۆدێرن   
+✴ئامادە بۆ بەکارهێنان  
+
+## :package: دامەزراندن
+
+کۆگاکە کلۆن بکە:
+فەرمانی bash
+git clone https://github.com/SirwanCode/dihokbuttons.git
+یان فایلە ZIP دابەزێنە، و پاشان  DihokButtons.css لە پرۆژەکەتدا دابنێ.
+
+ ```html
+ <link rel="stylesheet" href="css/DihokButtons.css">
+```
+
+## :book: بەکارهێنان
+
+✳نمونە بەکارهێنان  (بۆ button-003)
+
+
+ ```html
+ <button class="dButton-003 dButton-003-red">Button</button>
+```
+➰ بۆ گۆڕینی ڕەنگ، تەنها   "dButton-003-blue" بگۆڕە بە یەکێک لەمانەی خوارەوە
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-green   
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-red   
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-violet  
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-003-orange  
+
+
+✳نمونە بەکارهێنان  (بۆ button-044)
+
+ ```html
+ <button class="dButton-044 dButton-044-blue">
+      <span class="icon">&#128386;</span>
+      <span class="text">  Button </span>
+ </button>
+```
+➰ بۆ گۆڕینی ڕەنگ، تەنها   "dButton-044-blue" بگۆڕە بە یەکێک لەمانەی خوارەوە
+
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-044-green   
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-044-red   
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-044-violet  
+&nbsp;&nbsp;&nbsp;&nbsp;&#128311; dButton-044-orange    
+
+<p dir="rtl" align="right">➰بۆ گۆڕینی ئاراستەی دوگمەکە،  "dButton-044"  بگۆڕە بە   "dButton-044-rtl"  
+</p>
+  
+<h4>📌📌📌  فایل index.html بکەرەوە و هەموو دوگمەکان و چۆنیەتی زیادکردنی هەریەکەیانمان خستۆتە ڕوو📌📌📌</h4>
+
+
+
+## :art: گۆڕانکاری
+
+دەتوانیت بە ئاسانی ئەمانە بگۆڕیت:
+
+- ڕەنگەکان
+ - فۆنتەکان
+ - تیژڕەوی border radius
+- پادکردن Padding
+- سێبەرەکان
+ - افکتەکانی هۆڤەر
+ - ئەنیمەیشن
+ - خێرایی ترانزیشن
+
+🔶 تەنها DihokButtons.css بکەرەوە و دوگمەکە بدۆزەرەوە و تایبەتمەندیەکانی بگۆڕە
+
+
+   💢 بۆ زیادکردنی سێتی ڕەنگی نوێ:  
+
+
+<p dir="rtl"> &nbsp;&nbsp;&nbsp;&nbsp; ◼ DihokButtons.css بکەرەوە
+</p>
+<p dir="rtl"> &nbsp;&nbsp;&nbsp;&nbsp; ◼ لە  root: دا ڕەنگی نوێ زیاد بکە بە ڕووناکی جیاواز
+</p>
+
+ ```css
+    /* green in HSL */
+    --btn-green:#099268;
+   --hue-green:165;
+   --sat-green:80%;
+   --btn-green-900: hsl(var(--hue-green), var(--sat-green), var(--light-900));
+   --btn-green-700: hsl(var(--hue-green), var(--sat-green), var(--light-700));
+   --btn-green-600: hsl(var(--hue-green), var(--sat-green), var(--light-600));
+   --btn-green-500: hsl(var(--hue-green), var(--sat-green), var(--light-500));
+   --btn-green-450: hsl(var(--hue-green), var(--sat-green), var(--light-450));
+   --btn-green-300: hsl(var(--hue-green), var(--sat-green), var(--light-300));
+   --btn-green-100: hsl(var(--hue-green), var(--sat-green), var(--light-100));
+   --btn-green-093: hsl(var(--hue-green),  var(--sat-light), var(--light-093));
+   ```
+
+## :file_folder: پێکهاتەی پڕۆژە
+
+
+```
+DihokButtons/
+├── css/
+│   │   └── DihokButtons.css
+├── preview/
+│   │   └── dihokButtons-001.png
+│   │   └── dihokButtons-002.png
+│   │   └── dihokButtons-003.png
+├── index.html
+├── README.md
+ 
+```
+
+
+## :computer: دروستکراوە بە
+
+- HTML5
+- CSS3
+   
+## 🎯  مەبەست 
+
+من ئەمەم دروست کردووە بۆ ئەوەی کۆمەڵێک دوگمەی   هەبێت کە زۆر جوان دەردەکەون بەبێ ئەوەی پشت بە چوارچێوەی قورس وەک Bootstrap یان Tailwind ببەستم. زۆر گونجاوە بۆ سایتەکانی پۆرتفۆلیۆ، داشبۆرد، یان هەر پڕۆژەیەکی لاوەکی کە UI پاکت دەوێت      
+
+  
+## 🤝 بەشداریکردن
+
+بەشدارییەکان بەخێرهاتن دەکرێن!
+ئەگەر دەتەوێت DihokButtons باشتر بکەیت یان ستایلەکانی دوگمەی نوێ زیاد بکەیت:
+1. کۆگاکە   fork بکە  
+2. دروستکردنی لقێکی تایبەتمەندی
+3. گۆڕانکارییەکانتان commit بکەن
+4.  Pull Request  بکەرەوە
+
+## :star: پشتیوانی
+
+<h5>ئەگەر ئەم پڕۆژەیەت بەدڵ بوو، بیر لەوە بکەرەوە کە ئەستێرەیەکی پێ بدەیت لە GitHub. پشتگیری ئێوە یارمەتی گەشەکردنی پڕۆژەکە دەدات و هاندەری نوێکارییەکانی داهاتووە.
+</h5>
  
 
- 
+
+
+
+
+
+
+
+
+
+
+
